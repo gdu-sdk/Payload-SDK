@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o"
   "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o"
   "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o"
+  "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o"
   "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o"
   "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o"
   "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o"

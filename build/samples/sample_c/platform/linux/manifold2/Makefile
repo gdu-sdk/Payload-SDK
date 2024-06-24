@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gcc/git/payload_SDK_release
+CMAKE_SOURCE_DIR = /home/gcc/git/github/Payload-SDK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gcc/git/payload_SDK_release/build
+CMAKE_BINARY_DIR = /home/gcc/git/github/Payload-SDK/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gcc/git/payload_SDK_release/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/payload_SDK_release/build/CMakeFiles /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2/CMakeFiles/progress.marks
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/payload_SDK_release/build/CMakeFiles 0
+	cd /home/gcc/git/github/Payload-SDK/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/github/Payload-SDK/build/CMakeFiles /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2/CMakeFiles/progress.marks
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/github/Payload-SDK/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/clean
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/preinstall
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/preinstall
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gcc/git/payload_SDK_release/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gcc/git/github/Payload-SDK/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/rule:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/rule
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f CMakeFiles/Makefile2 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/rule
 .PHONY : samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk
 
 # fast build rule for target.
 gdu_sdk_demo_linux/fast:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build
 .PHONY : gdu_sdk_demo_linux/fast
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.o: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o
@@ -177,7 +177,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.o: _
 
 # target to build an object file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.i: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i
@@ -186,7 +186,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.i: _
 
 # target to preprocess a source file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.s: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s
@@ -195,7 +195,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.s: _
 
 # target to generate assembly for a file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.o: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o
@@ -204,7 +204,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.o: __
 
 # target to build an object file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.i: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i
@@ -213,7 +213,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.i: __
 
 # target to preprocess a source file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.s: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s
@@ -222,7 +222,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.s: __
 
 # target to generate assembly for a file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.o: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o
@@ -231,7 +231,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.o: __
 
 # target to build an object file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.i: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i
@@ -240,7 +240,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.i: __
 
 # target to preprocess a source file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i
 
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.s: __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s
@@ -249,7 +249,7 @@ __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.s: __
 
 # target to generate assembly for a file
 __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s
 .PHONY : __/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s
 
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.o: __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o
@@ -258,7 +258,7 @@ __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.o: __/__/__/module_s
 
 # target to build an object file
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o
 .PHONY : __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o
 
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.i: __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i
@@ -267,7 +267,7 @@ __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.i: __/__/__/module_s
 
 # target to preprocess a source file
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i
 .PHONY : __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i
 
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.s: __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s
@@ -276,7 +276,7 @@ __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.s: __/__/__/module_s
 
 # target to generate assembly for a file
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s
 .PHONY : __/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s
 
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.o: __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o
@@ -285,7 +285,7 @@ __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.o: __/__/__/module_
 
 # target to build an object file
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o
 .PHONY : __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o
 
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.i: __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i
@@ -294,7 +294,7 @@ __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.i: __/__/__/module_
 
 # target to preprocess a source file
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i
 .PHONY : __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i
 
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.s: __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s
@@ -303,8 +303,35 @@ __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.s: __/__/__/module_
 
 # target to generate assembly for a file
 __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s
 .PHONY : __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s
+
+__/__/__/module_sample/camera_manager/test_camera_manager.o: __/__/__/module_sample/camera_manager/test_camera_manager.c.o
+
+.PHONY : __/__/__/module_sample/camera_manager/test_camera_manager.o
+
+# target to build an object file
+__/__/__/module_sample/camera_manager/test_camera_manager.c.o:
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o
+.PHONY : __/__/__/module_sample/camera_manager/test_camera_manager.c.o
+
+__/__/__/module_sample/camera_manager/test_camera_manager.i: __/__/__/module_sample/camera_manager/test_camera_manager.c.i
+
+.PHONY : __/__/__/module_sample/camera_manager/test_camera_manager.i
+
+# target to preprocess a source file
+__/__/__/module_sample/camera_manager/test_camera_manager.c.i:
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.i
+.PHONY : __/__/__/module_sample/camera_manager/test_camera_manager.c.i
+
+__/__/__/module_sample/camera_manager/test_camera_manager.s: __/__/__/module_sample/camera_manager/test_camera_manager.c.s
+
+.PHONY : __/__/__/module_sample/camera_manager/test_camera_manager.s
+
+# target to generate assembly for a file
+__/__/__/module_sample/camera_manager/test_camera_manager.c.s:
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.s
+.PHONY : __/__/__/module_sample/camera_manager/test_camera_manager.c.s
 
 __/__/__/module_sample/fc_subscription/test_fc_subscription.o: __/__/__/module_sample/fc_subscription/test_fc_subscription.c.o
 
@@ -312,7 +339,7 @@ __/__/__/module_sample/fc_subscription/test_fc_subscription.o: __/__/__/module_s
 
 # target to build an object file
 __/__/__/module_sample/fc_subscription/test_fc_subscription.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o
 .PHONY : __/__/__/module_sample/fc_subscription/test_fc_subscription.c.o
 
 __/__/__/module_sample/fc_subscription/test_fc_subscription.i: __/__/__/module_sample/fc_subscription/test_fc_subscription.c.i
@@ -321,7 +348,7 @@ __/__/__/module_sample/fc_subscription/test_fc_subscription.i: __/__/__/module_s
 
 # target to preprocess a source file
 __/__/__/module_sample/fc_subscription/test_fc_subscription.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.i
 .PHONY : __/__/__/module_sample/fc_subscription/test_fc_subscription.c.i
 
 __/__/__/module_sample/fc_subscription/test_fc_subscription.s: __/__/__/module_sample/fc_subscription/test_fc_subscription.c.s
@@ -330,7 +357,7 @@ __/__/__/module_sample/fc_subscription/test_fc_subscription.s: __/__/__/module_s
 
 # target to generate assembly for a file
 __/__/__/module_sample/fc_subscription/test_fc_subscription.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.s
 .PHONY : __/__/__/module_sample/fc_subscription/test_fc_subscription.c.s
 
 __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.o: __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
@@ -339,7 +366,7 @@ __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.o: __/__/__/module_sam
 
 # target to build an object file
 __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
 .PHONY : __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
 
 __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.i: __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
@@ -348,7 +375,7 @@ __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.i: __/__/__/module_sam
 
 # target to preprocess a source file
 __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
 .PHONY : __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
 
 __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.s: __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
@@ -357,7 +384,7 @@ __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.s: __/__/__/module_sam
 
 # target to generate assembly for a file
 __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
 .PHONY : __/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
 
 __/__/__/module_sample/positioning/test_positioning.o: __/__/__/module_sample/positioning/test_positioning.c.o
@@ -366,7 +393,7 @@ __/__/__/module_sample/positioning/test_positioning.o: __/__/__/module_sample/po
 
 # target to build an object file
 __/__/__/module_sample/positioning/test_positioning.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o
 .PHONY : __/__/__/module_sample/positioning/test_positioning.c.o
 
 __/__/__/module_sample/positioning/test_positioning.i: __/__/__/module_sample/positioning/test_positioning.c.i
@@ -375,7 +402,7 @@ __/__/__/module_sample/positioning/test_positioning.i: __/__/__/module_sample/po
 
 # target to preprocess a source file
 __/__/__/module_sample/positioning/test_positioning.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.i
 .PHONY : __/__/__/module_sample/positioning/test_positioning.c.i
 
 __/__/__/module_sample/positioning/test_positioning.s: __/__/__/module_sample/positioning/test_positioning.c.s
@@ -384,7 +411,7 @@ __/__/__/module_sample/positioning/test_positioning.s: __/__/__/module_sample/po
 
 # target to generate assembly for a file
 __/__/__/module_sample/positioning/test_positioning.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.s
 .PHONY : __/__/__/module_sample/positioning/test_positioning.c.s
 
 __/__/__/module_sample/time_sync/test_time_sync.o: __/__/__/module_sample/time_sync/test_time_sync.c.o
@@ -393,7 +420,7 @@ __/__/__/module_sample/time_sync/test_time_sync.o: __/__/__/module_sample/time_s
 
 # target to build an object file
 __/__/__/module_sample/time_sync/test_time_sync.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o
 .PHONY : __/__/__/module_sample/time_sync/test_time_sync.c.o
 
 __/__/__/module_sample/time_sync/test_time_sync.i: __/__/__/module_sample/time_sync/test_time_sync.c.i
@@ -402,7 +429,7 @@ __/__/__/module_sample/time_sync/test_time_sync.i: __/__/__/module_sample/time_s
 
 # target to preprocess a source file
 __/__/__/module_sample/time_sync/test_time_sync.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.i
 .PHONY : __/__/__/module_sample/time_sync/test_time_sync.c.i
 
 __/__/__/module_sample/time_sync/test_time_sync.s: __/__/__/module_sample/time_sync/test_time_sync.c.s
@@ -411,7 +438,7 @@ __/__/__/module_sample/time_sync/test_time_sync.s: __/__/__/module_sample/time_s
 
 # target to generate assembly for a file
 __/__/__/module_sample/time_sync/test_time_sync.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.s
 .PHONY : __/__/__/module_sample/time_sync/test_time_sync.c.s
 
 __/__/__/module_sample/utils/util_buffer.o: __/__/__/module_sample/utils/util_buffer.c.o
@@ -420,7 +447,7 @@ __/__/__/module_sample/utils/util_buffer.o: __/__/__/module_sample/utils/util_bu
 
 # target to build an object file
 __/__/__/module_sample/utils/util_buffer.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o
 .PHONY : __/__/__/module_sample/utils/util_buffer.c.o
 
 __/__/__/module_sample/utils/util_buffer.i: __/__/__/module_sample/utils/util_buffer.c.i
@@ -429,7 +456,7 @@ __/__/__/module_sample/utils/util_buffer.i: __/__/__/module_sample/utils/util_bu
 
 # target to preprocess a source file
 __/__/__/module_sample/utils/util_buffer.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.i
 .PHONY : __/__/__/module_sample/utils/util_buffer.c.i
 
 __/__/__/module_sample/utils/util_buffer.s: __/__/__/module_sample/utils/util_buffer.c.s
@@ -438,7 +465,7 @@ __/__/__/module_sample/utils/util_buffer.s: __/__/__/module_sample/utils/util_bu
 
 # target to generate assembly for a file
 __/__/__/module_sample/utils/util_buffer.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.s
 .PHONY : __/__/__/module_sample/utils/util_buffer.c.s
 
 __/__/__/module_sample/utils/util_file.o: __/__/__/module_sample/utils/util_file.c.o
@@ -447,7 +474,7 @@ __/__/__/module_sample/utils/util_file.o: __/__/__/module_sample/utils/util_file
 
 # target to build an object file
 __/__/__/module_sample/utils/util_file.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o
 .PHONY : __/__/__/module_sample/utils/util_file.c.o
 
 __/__/__/module_sample/utils/util_file.i: __/__/__/module_sample/utils/util_file.c.i
@@ -456,7 +483,7 @@ __/__/__/module_sample/utils/util_file.i: __/__/__/module_sample/utils/util_file
 
 # target to preprocess a source file
 __/__/__/module_sample/utils/util_file.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.i
 .PHONY : __/__/__/module_sample/utils/util_file.c.i
 
 __/__/__/module_sample/utils/util_file.s: __/__/__/module_sample/utils/util_file.c.s
@@ -465,7 +492,7 @@ __/__/__/module_sample/utils/util_file.s: __/__/__/module_sample/utils/util_file
 
 # target to generate assembly for a file
 __/__/__/module_sample/utils/util_file.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.s
 .PHONY : __/__/__/module_sample/utils/util_file.c.s
 
 __/__/__/module_sample/utils/util_md5.o: __/__/__/module_sample/utils/util_md5.c.o
@@ -474,7 +501,7 @@ __/__/__/module_sample/utils/util_md5.o: __/__/__/module_sample/utils/util_md5.c
 
 # target to build an object file
 __/__/__/module_sample/utils/util_md5.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o
 .PHONY : __/__/__/module_sample/utils/util_md5.c.o
 
 __/__/__/module_sample/utils/util_md5.i: __/__/__/module_sample/utils/util_md5.c.i
@@ -483,7 +510,7 @@ __/__/__/module_sample/utils/util_md5.i: __/__/__/module_sample/utils/util_md5.c
 
 # target to preprocess a source file
 __/__/__/module_sample/utils/util_md5.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.i
 .PHONY : __/__/__/module_sample/utils/util_md5.c.i
 
 __/__/__/module_sample/utils/util_md5.s: __/__/__/module_sample/utils/util_md5.c.s
@@ -492,7 +519,7 @@ __/__/__/module_sample/utils/util_md5.s: __/__/__/module_sample/utils/util_md5.c
 
 # target to generate assembly for a file
 __/__/__/module_sample/utils/util_md5.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.s
 .PHONY : __/__/__/module_sample/utils/util_md5.c.s
 
 __/__/__/module_sample/utils/util_misc.o: __/__/__/module_sample/utils/util_misc.c.o
@@ -501,7 +528,7 @@ __/__/__/module_sample/utils/util_misc.o: __/__/__/module_sample/utils/util_misc
 
 # target to build an object file
 __/__/__/module_sample/utils/util_misc.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o
 .PHONY : __/__/__/module_sample/utils/util_misc.c.o
 
 __/__/__/module_sample/utils/util_misc.i: __/__/__/module_sample/utils/util_misc.c.i
@@ -510,7 +537,7 @@ __/__/__/module_sample/utils/util_misc.i: __/__/__/module_sample/utils/util_misc
 
 # target to preprocess a source file
 __/__/__/module_sample/utils/util_misc.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.i
 .PHONY : __/__/__/module_sample/utils/util_misc.c.i
 
 __/__/__/module_sample/utils/util_misc.s: __/__/__/module_sample/utils/util_misc.c.s
@@ -519,7 +546,7 @@ __/__/__/module_sample/utils/util_misc.s: __/__/__/module_sample/utils/util_misc
 
 # target to generate assembly for a file
 __/__/__/module_sample/utils/util_misc.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.s
 .PHONY : __/__/__/module_sample/utils/util_misc.c.s
 
 __/__/__/module_sample/utils/util_time.o: __/__/__/module_sample/utils/util_time.c.o
@@ -528,7 +555,7 @@ __/__/__/module_sample/utils/util_time.o: __/__/__/module_sample/utils/util_time
 
 # target to build an object file
 __/__/__/module_sample/utils/util_time.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o
 .PHONY : __/__/__/module_sample/utils/util_time.c.o
 
 __/__/__/module_sample/utils/util_time.i: __/__/__/module_sample/utils/util_time.c.i
@@ -537,7 +564,7 @@ __/__/__/module_sample/utils/util_time.i: __/__/__/module_sample/utils/util_time
 
 # target to preprocess a source file
 __/__/__/module_sample/utils/util_time.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.i
 .PHONY : __/__/__/module_sample/utils/util_time.c.i
 
 __/__/__/module_sample/utils/util_time.s: __/__/__/module_sample/utils/util_time.c.s
@@ -546,7 +573,7 @@ __/__/__/module_sample/utils/util_time.s: __/__/__/module_sample/utils/util_time
 
 # target to generate assembly for a file
 __/__/__/module_sample/utils/util_time.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.s
 .PHONY : __/__/__/module_sample/utils/util_time.c.s
 
 __/__/__/module_sample/widget/file_binary_array_list_en.o: __/__/__/module_sample/widget/file_binary_array_list_en.c.o
@@ -555,7 +582,7 @@ __/__/__/module_sample/widget/file_binary_array_list_en.o: __/__/__/module_sampl
 
 # target to build an object file
 __/__/__/module_sample/widget/file_binary_array_list_en.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o
 .PHONY : __/__/__/module_sample/widget/file_binary_array_list_en.c.o
 
 __/__/__/module_sample/widget/file_binary_array_list_en.i: __/__/__/module_sample/widget/file_binary_array_list_en.c.i
@@ -564,7 +591,7 @@ __/__/__/module_sample/widget/file_binary_array_list_en.i: __/__/__/module_sampl
 
 # target to preprocess a source file
 __/__/__/module_sample/widget/file_binary_array_list_en.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.i
 .PHONY : __/__/__/module_sample/widget/file_binary_array_list_en.c.i
 
 __/__/__/module_sample/widget/file_binary_array_list_en.s: __/__/__/module_sample/widget/file_binary_array_list_en.c.s
@@ -573,7 +600,7 @@ __/__/__/module_sample/widget/file_binary_array_list_en.s: __/__/__/module_sampl
 
 # target to generate assembly for a file
 __/__/__/module_sample/widget/file_binary_array_list_en.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.s
 .PHONY : __/__/__/module_sample/widget/file_binary_array_list_en.c.s
 
 __/__/__/module_sample/widget/test_widget.o: __/__/__/module_sample/widget/test_widget.c.o
@@ -582,7 +609,7 @@ __/__/__/module_sample/widget/test_widget.o: __/__/__/module_sample/widget/test_
 
 # target to build an object file
 __/__/__/module_sample/widget/test_widget.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o
 .PHONY : __/__/__/module_sample/widget/test_widget.c.o
 
 __/__/__/module_sample/widget/test_widget.i: __/__/__/module_sample/widget/test_widget.c.i
@@ -591,7 +618,7 @@ __/__/__/module_sample/widget/test_widget.i: __/__/__/module_sample/widget/test_
 
 # target to preprocess a source file
 __/__/__/module_sample/widget/test_widget.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.i
 .PHONY : __/__/__/module_sample/widget/test_widget.c.i
 
 __/__/__/module_sample/widget/test_widget.s: __/__/__/module_sample/widget/test_widget.c.s
@@ -600,7 +627,7 @@ __/__/__/module_sample/widget/test_widget.s: __/__/__/module_sample/widget/test_
 
 # target to generate assembly for a file
 __/__/__/module_sample/widget/test_widget.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.s
 .PHONY : __/__/__/module_sample/widget/test_widget.c.s
 
 __/__/__/module_sample/widget/test_widget_speaker.o: __/__/__/module_sample/widget/test_widget_speaker.c.o
@@ -609,7 +636,7 @@ __/__/__/module_sample/widget/test_widget_speaker.o: __/__/__/module_sample/widg
 
 # target to build an object file
 __/__/__/module_sample/widget/test_widget_speaker.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o
 .PHONY : __/__/__/module_sample/widget/test_widget_speaker.c.o
 
 __/__/__/module_sample/widget/test_widget_speaker.i: __/__/__/module_sample/widget/test_widget_speaker.c.i
@@ -618,7 +645,7 @@ __/__/__/module_sample/widget/test_widget_speaker.i: __/__/__/module_sample/widg
 
 # target to preprocess a source file
 __/__/__/module_sample/widget/test_widget_speaker.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.i
 .PHONY : __/__/__/module_sample/widget/test_widget_speaker.c.i
 
 __/__/__/module_sample/widget/test_widget_speaker.s: __/__/__/module_sample/widget/test_widget_speaker.c.s
@@ -627,7 +654,7 @@ __/__/__/module_sample/widget/test_widget_speaker.s: __/__/__/module_sample/widg
 
 # target to generate assembly for a file
 __/__/__/module_sample/widget/test_widget_speaker.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.s
 .PHONY : __/__/__/module_sample/widget/test_widget_speaker.c.s
 
 __/common/monitor/sys_monitor.o: __/common/monitor/sys_monitor.c.o
@@ -636,7 +663,7 @@ __/common/monitor/sys_monitor.o: __/common/monitor/sys_monitor.c.o
 
 # target to build an object file
 __/common/monitor/sys_monitor.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o
 .PHONY : __/common/monitor/sys_monitor.c.o
 
 __/common/monitor/sys_monitor.i: __/common/monitor/sys_monitor.c.i
@@ -645,7 +672,7 @@ __/common/monitor/sys_monitor.i: __/common/monitor/sys_monitor.c.i
 
 # target to preprocess a source file
 __/common/monitor/sys_monitor.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.i
 .PHONY : __/common/monitor/sys_monitor.c.i
 
 __/common/monitor/sys_monitor.s: __/common/monitor/sys_monitor.c.s
@@ -654,7 +681,7 @@ __/common/monitor/sys_monitor.s: __/common/monitor/sys_monitor.c.s
 
 # target to generate assembly for a file
 __/common/monitor/sys_monitor.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.s
 .PHONY : __/common/monitor/sys_monitor.c.s
 
 __/common/osal/osal.o: __/common/osal/osal.c.o
@@ -663,7 +690,7 @@ __/common/osal/osal.o: __/common/osal/osal.c.o
 
 # target to build an object file
 __/common/osal/osal.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o
 .PHONY : __/common/osal/osal.c.o
 
 __/common/osal/osal.i: __/common/osal/osal.c.i
@@ -672,7 +699,7 @@ __/common/osal/osal.i: __/common/osal/osal.c.i
 
 # target to preprocess a source file
 __/common/osal/osal.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.i
 .PHONY : __/common/osal/osal.c.i
 
 __/common/osal/osal.s: __/common/osal/osal.c.s
@@ -681,7 +708,7 @@ __/common/osal/osal.s: __/common/osal/osal.c.s
 
 # target to generate assembly for a file
 __/common/osal/osal.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.s
 .PHONY : __/common/osal/osal.c.s
 
 __/common/osal/osal_fs.o: __/common/osal/osal_fs.c.o
@@ -690,7 +717,7 @@ __/common/osal/osal_fs.o: __/common/osal/osal_fs.c.o
 
 # target to build an object file
 __/common/osal/osal_fs.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o
 .PHONY : __/common/osal/osal_fs.c.o
 
 __/common/osal/osal_fs.i: __/common/osal/osal_fs.c.i
@@ -699,7 +726,7 @@ __/common/osal/osal_fs.i: __/common/osal/osal_fs.c.i
 
 # target to preprocess a source file
 __/common/osal/osal_fs.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.i
 .PHONY : __/common/osal/osal_fs.c.i
 
 __/common/osal/osal_fs.s: __/common/osal/osal_fs.c.s
@@ -708,7 +735,7 @@ __/common/osal/osal_fs.s: __/common/osal/osal_fs.c.s
 
 # target to generate assembly for a file
 __/common/osal/osal_fs.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.s
 .PHONY : __/common/osal/osal_fs.c.s
 
 __/common/osal/osal_socket.o: __/common/osal/osal_socket.c.o
@@ -717,7 +744,7 @@ __/common/osal/osal_socket.o: __/common/osal/osal_socket.c.o
 
 # target to build an object file
 __/common/osal/osal_socket.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o
 .PHONY : __/common/osal/osal_socket.c.o
 
 __/common/osal/osal_socket.i: __/common/osal/osal_socket.c.i
@@ -726,7 +753,7 @@ __/common/osal/osal_socket.i: __/common/osal/osal_socket.c.i
 
 # target to preprocess a source file
 __/common/osal/osal_socket.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.i
 .PHONY : __/common/osal/osal_socket.c.i
 
 __/common/osal/osal_socket.s: __/common/osal/osal_socket.c.s
@@ -735,7 +762,7 @@ __/common/osal/osal_socket.s: __/common/osal/osal_socket.c.s
 
 # target to generate assembly for a file
 __/common/osal/osal_socket.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.s
 .PHONY : __/common/osal/osal_socket.c.s
 
 application/main.o: application/main.c.o
@@ -744,7 +771,7 @@ application/main.o: application/main.c.o
 
 # target to build an object file
 application/main.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o
 .PHONY : application/main.c.o
 
 application/main.i: application/main.c.i
@@ -753,7 +780,7 @@ application/main.i: application/main.c.i
 
 # target to preprocess a source file
 application/main.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.i
 .PHONY : application/main.c.i
 
 application/main.s: application/main.c.s
@@ -762,7 +789,7 @@ application/main.s: application/main.c.s
 
 # target to generate assembly for a file
 application/main.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.s
 .PHONY : application/main.c.s
 
 hal/hal_network.o: hal/hal_network.c.o
@@ -771,7 +798,7 @@ hal/hal_network.o: hal/hal_network.c.o
 
 # target to build an object file
 hal/hal_network.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o
 .PHONY : hal/hal_network.c.o
 
 hal/hal_network.i: hal/hal_network.c.i
@@ -780,7 +807,7 @@ hal/hal_network.i: hal/hal_network.c.i
 
 # target to preprocess a source file
 hal/hal_network.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.i
 .PHONY : hal/hal_network.c.i
 
 hal/hal_network.s: hal/hal_network.c.s
@@ -789,7 +816,7 @@ hal/hal_network.s: hal/hal_network.c.s
 
 # target to generate assembly for a file
 hal/hal_network.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.s
 .PHONY : hal/hal_network.c.s
 
 hal/hal_uart.o: hal/hal_uart.c.o
@@ -798,7 +825,7 @@ hal/hal_uart.o: hal/hal_uart.c.o
 
 # target to build an object file
 hal/hal_uart.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o
 .PHONY : hal/hal_uart.c.o
 
 hal/hal_uart.i: hal/hal_uart.c.i
@@ -807,7 +834,7 @@ hal/hal_uart.i: hal/hal_uart.c.i
 
 # target to preprocess a source file
 hal/hal_uart.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.i
 .PHONY : hal/hal_uart.c.i
 
 hal/hal_uart.s: hal/hal_uart.c.s
@@ -816,7 +843,7 @@ hal/hal_uart.s: hal/hal_uart.c.s
 
 # target to generate assembly for a file
 hal/hal_uart.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.s
 .PHONY : hal/hal_uart.c.s
 
 hal/hal_usb_bulk.o: hal/hal_usb_bulk.c.o
@@ -825,7 +852,7 @@ hal/hal_usb_bulk.o: hal/hal_usb_bulk.c.o
 
 # target to build an object file
 hal/hal_usb_bulk.c.o:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o
 .PHONY : hal/hal_usb_bulk.c.o
 
 hal/hal_usb_bulk.i: hal/hal_usb_bulk.c.i
@@ -834,7 +861,7 @@ hal/hal_usb_bulk.i: hal/hal_usb_bulk.c.i
 
 # target to preprocess a source file
 hal/hal_usb_bulk.c.i:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.i
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.i
 .PHONY : hal/hal_usb_bulk.c.i
 
 hal/hal_usb_bulk.s: hal/hal_usb_bulk.c.s
@@ -843,7 +870,7 @@ hal/hal_usb_bulk.s: hal/hal_usb_bulk.c.s
 
 # target to generate assembly for a file
 hal/hal_usb_bulk.c.s:
-	cd /home/gcc/git/payload_SDK_release/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.s
+	cd /home/gcc/git/github/Payload-SDK/build && $(MAKE) -f samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.s
 .PHONY : hal/hal_usb_bulk.c.s
 
 # Help Target
@@ -874,6 +901,9 @@ help:
 	@echo "... __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.o"
 	@echo "... __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.i"
 	@echo "... __/__/__/module_sample/camera_emu/test_payload_cam_emu_media.s"
+	@echo "... __/__/__/module_sample/camera_manager/test_camera_manager.o"
+	@echo "... __/__/__/module_sample/camera_manager/test_camera_manager.i"
+	@echo "... __/__/__/module_sample/camera_manager/test_camera_manager.s"
 	@echo "... __/__/__/module_sample/fc_subscription/test_fc_subscription.o"
 	@echo "... __/__/__/module_sample/fc_subscription/test_fc_subscription.i"
 	@echo "... __/__/__/module_sample/fc_subscription/test_fc_subscription.s"
@@ -945,6 +975,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gcc/git/payload_SDK_release/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gcc/git/github/Payload-SDK/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

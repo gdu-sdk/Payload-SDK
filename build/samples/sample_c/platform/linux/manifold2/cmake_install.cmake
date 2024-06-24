@@ -1,4 +1,4 @@
-# Install script for directory: /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2
+# Install script for directory: /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

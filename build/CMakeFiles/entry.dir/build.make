@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gcc/git/payload_SDK_release
+CMAKE_SOURCE_DIR = /home/gcc/git/github/Payload-SDK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gcc/git/payload_SDK_release/build
+CMAKE_BINARY_DIR = /home/gcc/git/github/Payload-SDK/build
 
 # Utility rule file for entry.
 
@@ -67,6 +67,6 @@ CMakeFiles/entry.dir/clean:
 .PHONY : CMakeFiles/entry.dir/clean
 
 CMakeFiles/entry.dir/depend:
-	cd /home/gcc/git/payload_SDK_release/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcc/git/payload_SDK_release /home/gcc/git/payload_SDK_release /home/gcc/git/payload_SDK_release/build /home/gcc/git/payload_SDK_release/build /home/gcc/git/payload_SDK_release/build/CMakeFiles/entry.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gcc/git/github/Payload-SDK/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcc/git/github/Payload-SDK /home/gcc/git/github/Payload-SDK /home/gcc/git/github/Payload-SDK/build /home/gcc/git/github/Payload-SDK/build /home/gcc/git/github/Payload-SDK/build/CMakeFiles/entry.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/entry.dir/depend
 

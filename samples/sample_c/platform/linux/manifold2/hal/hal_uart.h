@@ -48,6 +48,7 @@ extern "C" {
 //#define LINUX_UART_DEV1    "/dev/serial_tool"//"/dev/ttyUSB0"	//uart to aircraft
 //#define LINUX_UART_DEV1    "/dev/ttyUSB0"	//uart to aircraft
 #define LINUX_UART_DEV1    "/dev/ttyUSB0"	//uart to aircraft
+//#define LINUX_UART_DEV1    "/dev/ttyS1"	//uart to aircraft
 //#define LINUX_UART_DEV2    "/dev/ttyACM0"
 #define LINUX_UART_DEV2    "/dev/tty3"		//uart to print log
 

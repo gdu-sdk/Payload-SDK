@@ -97,6 +97,7 @@ include_directories(../../application)
 message("-- Use payload sdk package")
 file(GLOB_RECURSE MODULE_SAMPLE_SRC
 		../../../../../module_sample/camera_emu/test_payload_cam_emu_base.c
+        ../../../../../module_sample/gimbal_manager/*.c
         ../../../../../module_sample/gimbal_emu/*.c
         ../../../../../module_sample/fc_subscription/*.c
         ../../../../../module_sample/time_sync/*.c

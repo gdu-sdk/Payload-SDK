@@ -1,4 +1,4 @@
-# Install script for directory: /home/gcc/git/payload_SDK_release
+# Install script for directory: /home/gcc/git/github/Payload-SDK
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE FILE FILES "/home/gcc/git/payload_SDK_release/psdk_lib/lib/x86_64-linux-gnu-gcc/libpayloadsdk.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE FILE FILES "/home/gcc/git/github/Payload-SDK/psdk_lib/lib/x86_64-linux-gnu-gcc/libpayloadsdk.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,12 +58,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE DIRECTORY FILES "/home/gcc/git/payload_SDK_release/psdk_lib/include")
+file(INSTALL DESTINATION "/usr/local" TYPE DIRECTORY FILES "/home/gcc/git/github/Payload-SDK/psdk_lib/include")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2/cmake_install.cmake")
+  include("/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2/cmake_install.cmake")
 
 endif()
 
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gcc/git/payload_SDK_release/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gcc/git/github/Payload-SDK/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

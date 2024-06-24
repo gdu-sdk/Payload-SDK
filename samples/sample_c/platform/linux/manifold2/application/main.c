@@ -53,7 +53,8 @@
 #include "widget/test_widget.h"
 #include "widget/test_widget_speaker.h"
 //#include "widget_interaction_test/test_widget_interaction.h"
-//#include "data_transmission/test_data_transmission.h"
+#include "data_transmission/test_data_transmission.h"
+#include <camera_manager/test_camera_manager.h>
 #include "gdu_sdk_config.h"
 
 /* Private constants ---------------------------------------------------------*/
@@ -369,6 +370,17 @@ int main(int argc, char **argv)
 			USER_LOG_ERROR("Payload collaboration sample init error\n");
 		}
 #endif
+
+ #ifdef CONFIG_MODULE_SAMPLE_CAMERA_MANAGER_ON
+	returnCode = GduCameraManager_Init();
+    if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+        USER_LOG_ERROR("Init camera manager failed, error code: 0x%08X\r\n", returnCode);
+    }
+// 		returnCode = GduTest_CameraManagerRunSample(0, E_GDU_TEST_CAMERA_MANAGER_SAMPLE_SELECT_SET_CAMERA_SHUTTER_SPEED);
+// 		if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+// 			USER_LOG_ERROR("Payload collaboration sample init error\n");
+// 		}
+ #endif
 
 #ifdef CONFIG_MODULE_SAMPLE_UPGRADE_ON
 		T_GduTestUpgradePlatformOpt linuxUpgradePlatformOpt = {

@@ -36,7 +36,7 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 //#define CONFIG_MODULE_SAMPLE_POWER_MANAGEMENT_ON
 
-#define CONFIG_MODULE_SAMPLE_CAMERA_EMU_ON
+//#define CONFIG_MODULE_SAMPLE_CAMERA_EMU_ON
 
 //#define CONFIG_MODULE_SAMPLE_CAMERA_MEDIA_ON
 
@@ -50,6 +50,7 @@ extern "C" {
 
 #define CONFIG_MODULE_SAMPLE_WIDGET_SPEAKER_ON
 
+#define CONFIG_MODULE_SAMPLE_CAMERA_MANAGER_ON
 
 //#define CONFIG_MODULE_SAMPLE_DATA_TRANSMISSION_ON
 

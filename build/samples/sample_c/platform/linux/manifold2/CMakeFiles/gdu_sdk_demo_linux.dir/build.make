@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gcc/git/payload_SDK_release
+CMAKE_SOURCE_DIR = /home/gcc/git/github/Payload-SDK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gcc/git/payload_SDK_release/build
+CMAKE_BINARY_DIR = /home/gcc/git/github/Payload-SDK/build
 
 # Include any dependencies generated for this target.
 include samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/depend.make
@@ -59,328 +59,341 @@ include samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../samples/sample_c/platform/linux/manifold2/application/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/application/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/application/main.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/application/main.c > CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/application/main.c > CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/application/main.c -o CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/application/main.c -o CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o: ../samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o: ../samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o: ../samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o: ../samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o: ../samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.s
+
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../samples/sample_c/module_sample/camera_manager/test_camera_manager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_manager/test_camera_manager.c
+
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.i"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_manager/test_camera_manager.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.i
+
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.s"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_manager/test_camera_manager.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o: ../samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o: ../samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o: ../samples/sample_c/module_sample/positioning/test_positioning.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/positioning/test_positioning.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/positioning/test_positioning.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/positioning/test_positioning.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/positioning/test_positioning.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/positioning/test_positioning.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/positioning/test_positioning.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o: ../samples/sample_c/module_sample/time_sync/test_time_sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/time_sync/test_time_sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/time_sync/test_time_sync.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/time_sync/test_time_sync.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/time_sync/test_time_sync.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/time_sync/test_time_sync.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/time_sync/test_time_sync.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o: ../samples/sample_c/module_sample/utils/util_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_buffer.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_buffer.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_buffer.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_buffer.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_buffer.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o: ../samples/sample_c/module_sample/utils/util_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_file.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_file.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_file.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_file.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_file.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o: ../samples/sample_c/module_sample/utils/util_md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_md5.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_md5.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o: ../samples/sample_c/module_sample/utils/util_misc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_misc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_misc.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_misc.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_misc.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_misc.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_misc.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o: ../samples/sample_c/module_sample/utils/util_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_time.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/utils/util_time.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o: ../samples/sample_c/module_sample/widget/file_binary_array_list_en.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/file_binary_array_list_en.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/file_binary_array_list_en.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/file_binary_array_list_en.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/file_binary_array_list_en.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/file_binary_array_list_en.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/file_binary_array_list_en.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o: ../samples/sample_c/module_sample/widget/test_widget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/test_widget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/test_widget.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/test_widget.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o: ../samples/sample_c/module_sample/widget/test_widget_speaker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/test_widget_speaker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget_speaker.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/test_widget_speaker.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget_speaker.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/module_sample/widget/test_widget_speaker.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget_speaker.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o: ../samples/sample_c/platform/linux/common/monitor/sys_monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/monitor/sys_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/monitor/sys_monitor.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/monitor/sys_monitor.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/monitor/sys_monitor.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/monitor/sys_monitor.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/monitor/sys_monitor.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o: ../samples/sample_c/platform/linux/common/osal/osal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o: ../samples/sample_c/platform/linux/common/osal/osal_fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal_fs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_fs.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal_fs.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_fs.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal_fs.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_fs.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o: ../samples/sample_c/platform/linux/common/osal/osal_socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal_socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_socket.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal_socket.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_socket.c > CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/common/osal/osal_socket.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_socket.c -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o: ../samples/sample_c/platform/linux/manifold2/hal/hal_network.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_network.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_network.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_network.c > CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_network.c > CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_network.c -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_network.c -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o: ../samples/sample_c/platform/linux/manifold2/hal/hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c > CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c > CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.s
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/flags.make
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o: ../samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o   -c /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o"
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.i"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c > CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.i
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c > CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.i
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.s"
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.s
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.s
 
 # Object files for target gdu_sdk_demo_linux
 gdu_sdk_demo_linux_OBJECTS = \
@@ -390,6 +403,7 @@ gdu_sdk_demo_linux_OBJECTS = \
 "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o" \
 "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o" \
 "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o" \
+"CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o" \
 "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o" \
 "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o" \
 "CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o" \
@@ -419,6 +433,7 @@ bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o
+bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o
@@ -441,9 +456,9 @@ bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build.make
 bin/gdu_sdk_demo_linux: ../samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/lib/x86_64-linux-gnu-gcc/libpayloadsdk.a
 bin/gdu_sdk_demo_linux: samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gcc/git/payload_SDK_release/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable ../../../../../bin/gdu_sdk_demo_linux"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gcc/git/github/Payload-SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable ../../../../../bin/gdu_sdk_demo_linux"
 	cmake ..
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gdu_sdk_demo_linux.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gdu_sdk_demo_linux.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build: bin/gdu_sdk_demo_linux
@@ -451,10 +466,10 @@ samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/buil
 .PHONY : samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/build
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/clean:
-	cd /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 && $(CMAKE_COMMAND) -P CMakeFiles/gdu_sdk_demo_linux.dir/cmake_clean.cmake
+	cd /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 && $(CMAKE_COMMAND) -P CMakeFiles/gdu_sdk_demo_linux.dir/cmake_clean.cmake
 .PHONY : samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/clean
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/depend:
-	cd /home/gcc/git/payload_SDK_release/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcc/git/payload_SDK_release /home/gcc/git/payload_SDK_release/samples/sample_c/platform/linux/manifold2 /home/gcc/git/payload_SDK_release/build /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2 /home/gcc/git/payload_SDK_release/build/samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gcc/git/github/Payload-SDK/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gcc/git/github/Payload-SDK /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2 /home/gcc/git/github/Payload-SDK/build /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2 /home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/depend
 

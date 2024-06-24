@@ -3,7 +3,8 @@ project(gdu_sdk_demo_linux C)
 
 set(CMAKE_C_FLAGS "-pthread -std=gnu99 ")
 set(CMAKE_EXE_LINKER_FLAGS "-pthread")
-
+set(CMAKE_C_COMPILER "gcc")
+set(CMAKE_CXX_COMPILER "g++")
 add_definitions(-D_GNU_SOURCE)
 
 if (NOT USE_SYSTEM_ARCH)
@@ -32,6 +33,7 @@ file(GLOB_RECURSE MODULE_APP_SRC application/*.c)
 
 file(GLOB_RECURSE MODULE_SAMPLE_SRC 
 	../../../module_sample/camera_emu/*.c
+        ../../../module_sample/camera_manager/*.c
 	../../../module_sample/gimbal_emu/*.c
 	../../../module_sample/positioning/*c
 	../../../module_sample/time_sync/*c

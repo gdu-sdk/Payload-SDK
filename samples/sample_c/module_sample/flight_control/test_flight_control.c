@@ -373,14 +373,15 @@ void GduTest_FlightControlGoHomeForceLandingSample()
     USER_LOG_INFO("Flight control go-home-force-landing sample start");
     GduTest_WidgetLogAppend("Flight control go-home-force-landing sample start");
 
-    USER_LOG_INFO("--> Step 1: Obtain joystick control authority");
-    GduTest_WidgetLogAppend("--> Step 1: Obtain joystick control authority");
-    returnCode = GduFlightController_ObtainJoystickCtrlAuthority();
-    if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-        USER_LOG_ERROR("Obtain joystick authority failed, error code: 0x%08X", returnCode);
-        goto out;
-    }
-    s_osalHandler->TaskSleepMs(1000);
+	//no need Obtain joystick control authority
+//    USER_LOG_INFO("--> Step 1: Obtain joystick control authority");
+//    GduTest_WidgetLogAppend("--> Step 1: Obtain joystick control authority");
+//    returnCode = GduFlightController_ObtainJoystickCtrlAuthority();
+//    if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+//        USER_LOG_ERROR("Obtain joystick authority failed, error code: 0x%08X", returnCode);
+//        goto out;
+//    }
+//    s_osalHandler->TaskSleepMs(1000);
 
     USER_LOG_INFO("--> Step 2: Take off\r\n");
     GduTest_WidgetLogAppend("--> Step 2: Take off\r\n");

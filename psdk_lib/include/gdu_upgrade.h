@@ -46,7 +46,7 @@ typedef enum {
      * @note This transfer type only support linux platform and use network port. Users need to deploy FTP service on
      * payload. The ftp user info used to transfer upgrade firmware is :
      * username:gdu_payload_ftp
-     * password:DJi_#$31
+     * password:
      * You can get guide about FTP service deployment on https://developer.gdu.com/payload-sdk/documentation
      */
     GDU_FIRMWARE_TRANSFER_TYPE_UART = 0,

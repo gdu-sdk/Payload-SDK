@@ -107,6 +107,14 @@ typedef enum {
  */
 typedef enum {
     GDU_CAMERA_TYPE_UNKNOWN = 0, /*!< Camera type is unknown. */
+	GDU_CAMERA_TYPE_8K = 1,
+	GDU_CAMERA_TYPE_8KC = 2,
+	GDU_CAMERA_TYPE_30X = 3,
+	GDU_CAMERA_TYPE_PFL_ONE = 4,
+	GDU_CAMERA_TYPE_PDL_300G = 5,
+	GDU_CAMERA_TYPE_PDL_1K = 6,
+	GDU_CAMERA_TYPE_PQL_02 = 7,
+
     GDU_CAMERA_TYPE_PSDK = 31, /*!< Camera type is third party camera based on Payload SDK. */
 } E_GduCameraType;
 
@@ -193,12 +201,8 @@ typedef enum {
 
 typedef enum {
     GDU_CHANNEL_ADDRESS_UNKNOWN = 0,
-    GDU_CHANNEL_ADDRESS_PAYLOAD_PORT_NO1,
-    GDU_CHANNEL_ADDRESS_PAYLOAD_PORT_NO2,
-    GDU_CHANNEL_ADDRESS_PAYLOAD_PORT_NO3,
-    GDU_CHANNEL_ADDRESS_EXTENSION_PORT,
-    GDU_CHANNEL_ADDRESS_MASTER_RC_APP,
-    GDU_CHANNEL_ADDRESS_SLAVE_RC_APP,
+    GDU_CHANNEL_ADDRESS_PAYLOAD_COMPUTER = 1,
+    GDU_CHANNEL_ADDRESS_MASTER_RC_APP = 2,
 } E_GduChannelAddress;
 
 /**
@@ -290,7 +294,6 @@ typedef struct {
      * normal, this state will be clear again. */
     bool busyState;
 } T_GduDataChannelState;
-
 typedef struct Vector3d {
     int32_t x; /*!< Specifies int32 value of x for vector. */
     int32_t y; /*!< Specifies int32 value of y for vector. */

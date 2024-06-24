@@ -40,7 +40,7 @@ extern "C" {
 #define USER_APP_KEY                "2590d91a28cef"
 #define USER_APP_LICENSE            "lmkFJjtKQ=="
 #define USER_DEVELOPER_ACCOUNT      "1234567789@qq.com"
-#define USER_BAUD_RATE              "460800"
+#define USER_BAUD_RATE              "115200"
 
 /* Exported types ------------------------------------------------------------*/
 

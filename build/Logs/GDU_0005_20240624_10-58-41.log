@@ -1,0 +1,93 @@
+[0.000][core]-[debug]-[GduCore_Init:81) LIB VERSION: 0.0.32
+[0.952][core]-[info]-[GduCore_Init_FunList:205) reg fun list init ok
+[0.953][core]-[info]-[GduCore_Reg_FunList:213) reg fun 
+[0.953][core]-[info]-[GduCore_Reg_FunList:220) reg fun ****************
+[0.953][core]-[info]-[GduCore_Reg_FunList:232) reg fun ok 
+[0.953][core]-[info]-[GduCore_Reg_FunList:213) reg fun 
+[0.953][core]-[info]-[GduCore_Reg_FunList:220) reg fun ****************
+[0.953][core]-[info]-[GduCore_Reg_FunList:232) reg fun ok 
+[0.954][user]-[warn]-[GduWidget_GetFlieList_and_check:1084) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.954][user]-[warn]-[GduWidget_GetFlieList_and_check:1085) file name widget_config.json
+[0.954][user]-[warn]-[GduWidget_GetFlieList_and_check:1086) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/widget_config.json
+[0.954][user]-[info]-[GduWidget_GetFlieList_and_check:1096) json file crc 43
+[0.954][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.954][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_button1.png
+[0.954][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/icon_button1.png
+[0.954][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc CB13
+[0.954][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.955][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_list_item1.png
+[0.955][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/icon_list_item1.png
+[0.955][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc C1
+[0.955][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.955][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_switch_unselect.png
+[0.955][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/icon_switch_unselect.png
+[0.956][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc DC81
+[0.956][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.956][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_scale.png
+[0.956][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/icon_scale.png
+[0.956][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc AAE6
+[0.956][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_switch_select.png
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/icon_switch_select.png
+[0.957][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc F1EE
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_button2.png
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/icon_button2.png
+[0.957][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc B76B
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_list_item2.png
+[0.957][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/icon_list_item2.png
+[0.958][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 16F7
+[0.958][user]-[warn]-[GduWidget_GetFlieList_and_check:1084) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.958][user]-[warn]-[GduWidget_GetFlieList_and_check:1085) file name widget_config.json
+[0.958][user]-[warn]-[GduWidget_GetFlieList_and_check:1086) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/widget_config.json
+[0.959][user]-[info]-[GduWidget_GetFlieList_and_check:1096) json file crc C98E
+[0.959][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_button1.png
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/icon_button1.png
+[0.960][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 98EA
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_list_item1.png
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/icon_list_item1.png
+[0.960][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 62C
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_switch_unselect.png
+[0.960][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/icon_switch_unselect.png
+[0.961][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc F45C
+[0.961][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.962][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_scale.png
+[0.962][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/icon_scale.png
+[0.962][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc A64F
+[0.962][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.962][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_switch_select.png
+[0.962][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/icon_switch_select.png
+[0.963][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc E44A
+[0.963][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.964][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_button2.png
+[0.964][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/icon_button2.png
+[0.964][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 1C3A
+[0.964][user]-[warn]-[GduWidget_GetFlieList_and_check:1112) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.964][user]-[warn]-[GduWidget_GetFlieList_and_check:1113) file name icon_list_item2.png
+[0.964][user]-[warn]-[GduWidget_GetFlieList_and_check:1114) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/icon_list_item2.png
+[0.964][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 8738
+[0.965][core]-[info]-[GduCore_Reg_FunList:213) reg fun 
+[0.965][core]-[info]-[GduCore_Reg_FunList:220) reg fun ****************
+[0.965][core]-[info]-[GduCore_Reg_FunList:232) reg fun ok 
+[0.965][user]-[info]-[SetVolume:619) Set widget speaker volume: 30
+[0.965][user]-[warn]-[SetVolume:637) No audio device found, please add audio device and init speaker volume here!!!
+[0.965][core]-[info]-[GduCore_Reg_FunList:213) reg fun 
+[0.965][core]-[info]-[GduCore_Reg_FunList:220) reg fun ****************
+[0.965][core]-[info]-[GduCore_Reg_FunList:232) reg fun ok 
+[0.966][core]-[info]-[GduCore_Reg_FunList:213) reg fun 
+[0.967][core]-[info]-[GduCore_Reg_FunList:220) reg fun ****************
+[0.967][core]-[info]-[GduCore_Reg_FunList:232) reg fun ok 
+[0.967][link]-[info]-[npc_heartbeatServer:516) aircraft connecting
+[1.968][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[2.660][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[2.660][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[2.968][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[3.969][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[4.387][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[4.387][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[4.970][link]-[info]-[npc_heartbeatServer:516) aircraft connecting
+[4.970][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS

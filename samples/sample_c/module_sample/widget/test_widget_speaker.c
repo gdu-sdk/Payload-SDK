@@ -92,6 +92,7 @@ static uint16_t s_decodeBitrate = 0;
 /* Private functions declaration ---------------------------------------------*/
 static void SetSpeakerState(E_GduWidgetSpeakerState speakerState);
 static T_GduReturnCode GetSpeakerState(T_GduWidgetSpeakerState *speakerState);
+static T_GduReturnCode GetSpeakerParam(T_GduWidgetSpeakerParam *speakerParam);
 static T_GduReturnCode SetWorkMode(E_GduWidgetSpeakerWorkMode workMode);
 static T_GduReturnCode SetPlayMode(E_GduWidgetSpeakerPlayMode playMode);
 static T_GduReturnCode StartPlay(void);
@@ -104,6 +105,9 @@ static T_GduReturnCode ReceiveAudioData(E_GduWidgetTransmitDataEvent event,
 
 static T_GduReturnCode ReceiveMp3AudioData(E_GduWidgetTransmitDataEvent event,
                                         uint32_t offset, uint8_t *buf, uint16_t size);
+static T_GduReturnCode ReceiveRealTimeAudioData(E_GduWidgetTransmitDataEvent event,
+                                        uint32_t offset, uint8_t *buf, uint16_t size);
+
 #ifdef SYSTEM_ARCH_LINUX
 static void *GduTest_WidgetSpeakerTask(void *arg);
 static uint32_t GduTest_GetVoicePlayProcessId(void);
@@ -133,6 +137,8 @@ T_GduReturnCode GduTest_WidgetSpeakerStartService(void)
     s_speakerHandler.ReceiveVoiceData = ReceiveAudioData;
 
     s_speakerHandler.ReceiveMp3VoiceData = ReceiveMp3AudioData;
+    s_speakerHandler.ReceiveRealTimeVoiceData = ReceiveRealTimeAudioData;
+    s_speakerHandler.GetSpeakerParam = GetSpeakerParam;
 
     returnCode = osalHandler->MutexCreate(&s_speakerMutex);
     if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
@@ -485,6 +491,18 @@ static T_GduReturnCode GetSpeakerState(T_GduWidgetSpeakerState *speakerState)
     return GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS;
 }
 
+static T_GduReturnCode GetSpeakerParam(T_GduWidgetSpeakerParam *speakerParam)
+{
+	T_GduReturnCode returnCode;
+	T_GduOsalHandler *osalHandler = GduPlatform_GetOsalHandler();
+
+
+	//TODO: put your speaker param to speakerParam
+
+	return GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS;
+}
+
+
 static T_GduReturnCode SetWorkMode(E_GduWidgetSpeakerWorkMode workMode)
 {
     T_GduReturnCode returnCode;
@@ -741,7 +759,13 @@ static T_GduReturnCode ReceiveAudioData(E_GduWidgetTransmitDataEvent event,
     return GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS;
 }
 
-
+static T_GduReturnCode ReceiveRealTimeAudioData(E_GduWidgetTransmitDataEvent event,
+                                        uint32_t offset, uint8_t *buf, uint16_t size)
+{
+    //TODO rev real time voce
+    USER_LOG_DEBUG("rev stream data %d bytes. event:%d", size, event);
+    return GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS;
+}
 
 static T_GduReturnCode ReceiveMp3AudioData(E_GduWidgetTransmitDataEvent event,
                                         uint32_t offset, uint8_t *buf, uint16_t size)

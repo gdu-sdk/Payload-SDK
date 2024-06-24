@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gcc/git/payload_SDK_release
+CMAKE_SOURCE_DIR = /home/gcc/git/github/Payload-SDK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gcc/git/payload_SDK_release/build
+CMAKE_BINARY_DIR = /home/gcc/git/github/Payload-SDK/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/payload_SDK_release/build/CMakeFiles /home/gcc/git/payload_SDK_release/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/github/Payload-SDK/build/CMakeFiles /home/gcc/git/github/Payload-SDK/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/payload_SDK_release/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gcc/git/github/Payload-SDK/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

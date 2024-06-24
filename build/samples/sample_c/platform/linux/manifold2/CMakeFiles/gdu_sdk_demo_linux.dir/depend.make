@@ -59,6 +59,17 @@ samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/_
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o: ../samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o: ../samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.h
 
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../psdk_lib/include/gdu_camera_manager.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../psdk_lib/include/gdu_error.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../psdk_lib/include/gdu_liveview.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../psdk_lib/include/gdu_logger.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../psdk_lib/include/gdu_payload_camera.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../psdk_lib/include/gdu_platform.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../psdk_lib/include/gdu_typedef.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../samples/sample_c/module_sample/utils/util_misc.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../samples/sample_c/module_sample/camera_manager/test_camera_manager.c
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o: ../samples/sample_c/module_sample/camera_manager/test_camera_manager.h
+
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o: ../psdk_lib/include/gdu_error.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o: ../psdk_lib/include/gdu_fc_subscription.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o: ../psdk_lib/include/gdu_logger.h
@@ -185,6 +196,7 @@ samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/c
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o: ../samples/sample_c/platform/linux/common/osal/osal_socket.h
 
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../psdk_lib/include/gdu_aircraft_info.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../psdk_lib/include/gdu_camera_manager.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../psdk_lib/include/gdu_core.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../psdk_lib/include/gdu_error.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../psdk_lib/include/gdu_logger.h
@@ -193,6 +205,8 @@ samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/appl
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../psdk_lib/include/gdu_typedef.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../psdk_lib/include/gdu_widget.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../samples/sample_c/module_sample/camera_manager/test_camera_manager.h
+samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../samples/sample_c/module_sample/data_transmission/test_data_transmission.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../samples/sample_c/module_sample/utils/util_misc.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../samples/sample_c/module_sample/widget/test_widget.h
 samples/sample_c/platform/linux/manifold2/CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o: ../samples/sample_c/module_sample/widget/test_widget_speaker.h

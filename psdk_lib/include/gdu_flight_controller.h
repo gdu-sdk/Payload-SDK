@@ -228,6 +228,10 @@ typedef enum {
     GDU_FLIGHT_CONTROLLER_STABLE_CONTROL_MODE_ENABLE = 1   /*!< Enable the stable mode */
 } E_GduFlightControllerStableControlMode;
 
+typedef enum {
+    GDU_FLIGHT_CONTROLLER_ENABLE_RC_LOST_ACTION = 0,
+    GDU_FLIGHT_CONTROLLER_DISABLE_RC_LOST_ACTION = 1,
+} E_GduFlightControllerRCLostActionEnableStatus;
 /**
  * @brief Joystick mode.
  * @note You need to set joystick mode first before start to send joystick command to aircraft.

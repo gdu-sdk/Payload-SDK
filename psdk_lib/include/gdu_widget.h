@@ -72,6 +72,7 @@ typedef enum {
 typedef enum {
     GDU_WIDGET_SPEAKER_WORK_MODE_TTS = 0,
     GDU_WIDGET_SPEAKER_WORK_MODE_VOICE = 1,
+	GDU_WIDGET_SPEAKER_WORK_MODE_REAL_TIME_VOICE = 2,
 } E_GduWidgetSpeakerWorkMode;
 
 /**
@@ -92,6 +93,39 @@ typedef enum {
     GDU_WIDGET_SPEAKER_STATE_ERROR = 3,
     GDU_WIDGET_SPEAKER_STATE_IN_TTS_CONVERSION = 4,
 } E_GduWidgetSpeakerState;
+
+/**
+ * @brief Switch widget speaker data type.
+ */
+typedef enum {
+    GDU_WIDGET_SPEAKER_MP3 = 0,
+    GDU_WIDGET_SPEAKER_OPUS = 1,
+    GDU_WIDGET_SPEAKER_AAC = 2,
+} E_GduWidgetSpeakerDataType;
+
+typedef enum {
+    GDU_WIDGET_SPEAKER_RATE_8K = 0,
+	GDU_WIDGET_SPEAKER_RATE_12K = 1,
+    GDU_WIDGET_SPEAKER_RATE_16K = 2,
+	GDU_WIDGET_SPEAKER_RATE_22K = 3,
+	GDU_WIDGET_SPEAKER_RATE_24K = 4,
+	GDU_WIDGET_SPEAKER_RATE_32K = 5,
+	GDU_WIDGET_SPEAKER_RATE_44K = 6,
+	GDU_WIDGET_SPEAKER_RATE_48K = 7,
+	GDU_WIDGET_SPEAKER_RATE_96K = 8,
+}E_GduWidgetSpeakerSampling;
+
+
+typedef enum {
+    GDU_WIDGET_SPEAKER_RATE_SINGLE = 0,
+    GDU_WIDGET_SPEAKER_RATE_DOUBLE = 1,
+}E_GduWidgetSpeakerSoundTrack;
+
+typedef enum {
+    GDU_WIDGET_SPEAKER_DIGIT_8 = 0,
+    GDU_WIDGET_SPEAKER_DIGIT_16 = 1,
+	GDU_WIDGET_SPEAKER_DIGIT_32 = 2,
+}E_GduWidgetSpeakerDigit;
 
 /**
  * @brief Switch widget transmit data event.
@@ -193,6 +227,13 @@ typedef struct {
 } T_GduWidgetSpeakerState;
 
 typedef struct {
+    E_GduWidgetSpeakerDataType dataType;
+    E_GduWidgetSpeakerSampling samplingRate;
+    E_GduWidgetSpeakerSoundTrack soundTrack;
+    E_GduWidgetSpeakerDigit digit;
+} T_GduWidgetSpeakerParam;
+
+typedef struct {
     T_GduReturnCode (*GetSpeakerState)(T_GduWidgetSpeakerState *speakerState);
     T_GduReturnCode (*SetWorkMode)(E_GduWidgetSpeakerWorkMode workMode);
     T_GduReturnCode (*SetPlayMode)(E_GduWidgetSpeakerPlayMode playMode);
@@ -208,6 +249,10 @@ typedef struct {
 
     T_GduReturnCode (*ReceiveMp3VoiceData)(E_GduWidgetTransmitDataEvent event,
                                         uint32_t offset, uint8_t *buf, uint16_t size);
+    T_GduReturnCode (*ReceiveRealTimeVoiceData)(E_GduWidgetTransmitDataEvent event,
+                                        uint32_t offset, uint8_t *buf, uint16_t size);
+    T_GduReturnCode (*GetSpeakerParam)(T_GduWidgetSpeakerParam *speakerParam);
+
 } T_GduWidgetSpeakerHandler;
 
 /* Exported functions --------------------------------------------------------*/
