@@ -167,7 +167,7 @@ static T_GduReturnCode GduMediaFile_CreateTempFilePriv_JPG(const char *srcFilePa
 
     jpgTempFilePriv = *pTempFilePrivHandle;
 
-#if 1
+#if 0
     //get temp file name
     strcpy(jpgTempFilePriv->tempfilePath, JPG_TEMP_FILE_TEMPLATE_STR);
     tempFd = mkstemps(jpgTempFilePriv->tempfilePath, strlen(JPG_FILE_SUFFIX));

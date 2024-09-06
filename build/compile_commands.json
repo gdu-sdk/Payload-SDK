@@ -1,0 +1,132 @@
+[
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/application/main.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/application/main.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/application/main.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_base.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_emu/test_payload_cam_emu_media.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/camera_manager/test_camera_manager.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_manager/test_camera_manager.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/camera_manager/test_camera_manager.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/fc_subscription/test_fc_subscription.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/gimbal_emu/test_payload_gimbal_emu.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/positioning/test_positioning.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/positioning/test_positioning.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/positioning/test_positioning.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/time_sync/test_time_sync.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/time_sync/test_time_sync.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/time_sync/test_time_sync.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_buffer.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_buffer.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_buffer.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_file.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_file.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_file.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_md5.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_misc.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_misc.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_misc.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/utils/util_time.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/file_binary_array_list_en.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/file_binary_array_list_en.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/file_binary_array_list_en.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/__/__/module_sample/widget/test_widget_speaker.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget_speaker.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/test_widget_speaker.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/monitor/sys_monitor.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/monitor/sys_monitor.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/monitor/sys_monitor.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_fs.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_fs.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_fs.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/__/common/osal/osal_socket.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_socket.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/common/osal/osal_socket.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_network.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_network.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_network.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_uart.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_uart.c"
+},
+{
+  "directory": "/home/gcc/git/github/Payload-SDK/build/samples/sample_c/platform/linux/manifold2",
+  "command": "gcc -DSYSTEM_ARCH_LINUX -D_GNU_SOURCE -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common -I/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include  -pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g   -o CMakeFiles/gdu_sdk_demo_linux.dir/hal/hal_usb_bulk.c.o   -c /home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c",
+  "file": "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c"
+}
+]

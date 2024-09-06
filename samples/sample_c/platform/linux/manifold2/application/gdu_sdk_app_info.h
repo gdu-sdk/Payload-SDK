@@ -33,14 +33,13 @@ extern "C" {
 #endif
 
 /* Exported constants --------------------------------------------------------*/
-// ATTENTION: User must goto https://developer.gdu.com/user/apps/#all to create your own gdu sdk application, get gdu sdk application
-// information then fill in the application information here.
+// ATTENTION: S400 serial aircraft USER_BAUD_RATE use 460800  S200 serial aircraft USER_BAUD_RATE 230400
 #define USER_APP_NAME               "t-psdk"
 #define USER_APP_ID                 "1151"
 #define USER_APP_KEY                "2590d91a28cef"
 #define USER_APP_LICENSE            "lmkFJjtKQ=="
 #define USER_DEVELOPER_ACCOUNT      "1234567789@qq.com"
-#define USER_BAUD_RATE              "115200"
+#define USER_BAUD_RATE              "460800"
 
 /* Exported types ------------------------------------------------------------*/
 

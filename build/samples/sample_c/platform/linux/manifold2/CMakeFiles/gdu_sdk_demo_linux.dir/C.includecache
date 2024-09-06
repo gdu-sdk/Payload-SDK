@@ -436,18 +436,6 @@ gdu_typedef.h
 stdio.h
 -
 
-/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.c
-util_md5.h
-/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.h
-
-/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_md5.h
-stddef.h
--
-stdlib.h
--
-string.h
--
-
 /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_misc.c
 stdio.h
 -
@@ -457,18 +445,6 @@ util_misc.h
 /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_misc.h
 gdu_typedef.h
 /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/gdu_typedef.h
-
-/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.c
-util_time.h
-/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.h
-sys/resource.h
--
-time.h
--
-
-/home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/utils/util_time.h
-stdint.h
--
 
 /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/file_binary_array_list_en.c
 file_binary_array_list_en.h

@@ -702,7 +702,6 @@ static T_GduReturnCode ReceiveAudioData(E_GduWidgetTransmitDataEvent event,
 {
     uint16_t writeLen;
     T_GduReturnCode returnCode;
-    T_GduWidgetTransDataContent transDataContent = {0};
 
     if (event == GDU_WIDGET_TRANSMIT_DATA_EVENT_START) {
         s_isDecodeFinished = false;
@@ -716,11 +715,6 @@ static T_GduReturnCode ReceiveAudioData(E_GduWidgetTransmitDataEvent event,
             SetSpeakerState(GDU_WIDGET_SPEAKER_STATE_TRANSMITTING);
         }
 #endif
-
-        memcpy(&transDataContent, buf, size);
-        s_decodeBitrate = transDataContent.transDataStartContent.fileDecodeBitrate;
-        USER_LOG_INFO("Create voice file: %s, decoder bitrate: %d.", transDataContent.transDataStartContent.fileName,
-                      transDataContent.transDataStartContent.fileDecodeBitrate);
     } else if (event == GDU_WIDGET_TRANSMIT_DATA_EVENT_TRANSMIT) {
         USER_LOG_INFO("Transmit voice file, offset: %d, size: %d", offset, size);
 #ifdef SYSTEM_ARCH_LINUX
@@ -736,11 +730,17 @@ static T_GduReturnCode ReceiveAudioData(E_GduWidgetTransmitDataEvent event,
             SetSpeakerState(GDU_WIDGET_SPEAKER_STATE_TRANSMITTING);
         }
     } else if (event == GDU_WIDGET_TRANSMIT_DATA_EVENT_FINISH) {
-        USER_LOG_INFO("Close voice file.");
+        int ret = 0;
         if (s_audioFile != NULL) {
-            fclose(s_audioFile);
+            USER_LOG_INFO("Close voice file");
+            if (fclose(s_audioFile) == EOF) {  // 关闭文件
+                USER_LOG_ERROR("Failed to close file");
+            }
+            else
+            {
+                s_audioFile = NULL;
+            }
         }
-
 #ifdef SYSTEM_ARCH_LINUX
         returnCode = GduTest_CheckFileMd5Sum(WIDGET_SPEAKER_AUDIO_OPUS_FILE_NAME, buf, size);
         if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {

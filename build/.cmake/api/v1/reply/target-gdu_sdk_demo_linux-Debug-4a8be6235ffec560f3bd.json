@@ -1,0 +1,370 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/gdu_sdk_demo_linux"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"samples/sample_c/platform/linux/manifold2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "SYSTEM_ARCH_LINUX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_GNU_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../module_sample"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"id" : "gdu_sdk_demo_linux::@959c83024036ce89bd96",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-pthread -std=gnu99  -fPIC -fprofile-arcs -ftest-coverage -pthread  -fPIC -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-pthread  -fPIC -fprofile-arcs -ftest-coverage -lgcov",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/lib/x86_64-linux-gnu-gcc",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/gcc/git/github/Payload-SDK/samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/lib/x86_64-linux-gnu-gcc",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../../samples/sample_c/platform/linux/manifold2/../../../../../psdk_lib/lib/x86_64-linux-gnu-gcc/libpayloadsdk.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lusb-1.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "gdu_sdk_demo_linux",
+	"nameOnDisk" : "gdu_sdk_demo_linux",
+	"paths" : 
+	{
+		"build" : "samples/sample_c/platform/linux/manifold2",
+		"source" : "samples/sample_c/platform/linux/manifold2"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/manifold2/application/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_jpg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/camera_emu/gdu_media_file_manage/gdu_media_file_mp4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_base.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/camera_emu/test_payload_cam_emu_media.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/camera_manager/test_camera_manager.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/fc_subscription/test_fc_subscription.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/gimbal_emu/test_payload_gimbal_emu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/positioning/test_positioning.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/time_sync/test_time_sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/utils/util_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/utils/util_file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/utils/util_md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/utils/util_misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/utils/util_time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/widget/file_binary_array_list_en.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/widget/test_widget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/module_sample/widget/test_widget_speaker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/common/monitor/sys_monitor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/common/osal/osal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/common/osal/osal_fs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/common/osal/osal_socket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/manifold2/hal/hal_network.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/manifold2/hal/hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "samples/sample_c/platform/linux/manifold2/hal/hal_usb_bulk.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

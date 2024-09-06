@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
 project(gdu_sdk_demo_linux C)
 
-set(CMAKE_C_FLAGS "-pthread -std=gnu99 ")
-set(CMAKE_EXE_LINKER_FLAGS "-pthread")
+set(CMAKE_C_FLAGS "-pthread -std=gnu99  -fPIC")
+set(CMAKE_EXE_LINKER_FLAGS "-pthread  -fPIC")
+#set(CMAKE_C_COMPILER "gcc")
+#set(CMAKE_CXX_COMPILER "g++")
 set(CMAKE_C_COMPILER "gcc")
 set(CMAKE_CXX_COMPILER "g++")
 add_definitions(-D_GNU_SOURCE)
@@ -13,7 +15,7 @@ endif ()
 
 set(COMMON_CXX_FLAGS "-std=c++11 -pthread")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fprofile-arcs -ftest-coverage -pthread")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fprofile-arcs -ftest-coverage -pthread  -fPIC")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fprofile-arcs -ftest-coverage -lgcov")
 
 set(PACKAGE_NAME payloadsdk)

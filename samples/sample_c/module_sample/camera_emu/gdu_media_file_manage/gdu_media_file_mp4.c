@@ -201,7 +201,7 @@ static T_GduReturnCode GduMediaFile_CreateTempPicPriv_MP4(const char *srcFilePat
 
     mp4TempPicFile = *pTempPicPrivHandle;
 
-#if 1
+#if 0
     //get temp file name
     strcpy(mp4TempPicFile->tempfilePath, MP4_TEMP_FILE_TEMPLATE_STR);
     tempFd = mkstemps(mp4TempPicFile->tempfilePath, strlen(MP4_FILE_SUFFIX));

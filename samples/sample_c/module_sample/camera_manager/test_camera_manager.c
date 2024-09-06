@@ -43,7 +43,7 @@ typedef struct {
 /* Private values -------------------------------------------------------------*/
 static const T_GduTestCameraTypeStr s_cameraTypeStrList[] = {
     {GDU_CAMERA_TYPE_UNKNOWN, "Unknown"},
-    {GDU_CAMERA_TYPE_PSDK,    "Zenmuse Payload"},
+    {GDU_CAMERA_TYPE_PSDK,    "GDU Payload"},
 };
 
 static FILE *s_downloadMediaFile = NULL;
@@ -782,21 +782,13 @@ T_GduReturnCode GduTest_CameraManagerRunSample(E_GduMountPosition mountPosition,
     USER_LOG_INFO("Camera manager sample start");
     GduTest_WidgetLogAppend("Camera manager sample start");
 
-    USER_LOG_INFO("--> Step 1: Init camera manager module");
-    GduTest_WidgetLogAppend("--> Step 1: Init camera manager module");
-    // returnCode = GduCameraManager_Init();
-    // if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-    //     USER_LOG_ERROR("Init camera manager failed, error code: 0x%08X\r\n", returnCode);
-    //     goto exitCameraModule;
-    // }
-
     USER_LOG_INFO("--> Step 2: Get camera type and version");
     GduTest_WidgetLogAppend("--> Step 2: Get camera type and version");
     returnCode = GduCameraManager_GetCameraType(mountPosition, &cameraType);
     if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
         USER_LOG_ERROR("Get mounted position %d camera's type failed, error code: 0x%08X\r\n",
                        mountPosition, returnCode);
-        goto exitCameraModule;
+        return GDU_ERROR_SYSTEM_MODULE_CODE_INVALID_PARAMETER;
     }
     USER_LOG_INFO("Mounted position %d camera's type is %s",
                   mountPosition,
@@ -806,7 +798,7 @@ T_GduReturnCode GduTest_CameraManagerRunSample(E_GduMountPosition mountPosition,
     if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
         USER_LOG_ERROR("Get mounted position %d camera's firmware version failed, error code: 0x%08X\r\n",
                        mountPosition, returnCode);
-        goto exitCameraModule;
+        return GDU_ERROR_SYSTEM_MODULE_CODE_INVALID_PARAMETER;
     }
     USER_LOG_INFO("Mounted position %d camera's firmware is V%d.%d.%d.%d\r\n", mountPosition,
                   firmwareVersion.firmware_version[0], firmwareVersion.firmware_version[1],
@@ -1063,12 +1055,6 @@ T_GduReturnCode GduTest_CameraManagerRunSample(E_GduMountPosition mountPosition,
             USER_LOG_ERROR("There is no valid command input!");
             break;
         }
-    }
-
-exitCameraModule:
-    returnCode = GduCameraManager_DeInit();
-    if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-        USER_LOG_ERROR("Camera manager deinit failed ,error code :0x%08X", returnCode);
     }
 
     USER_LOG_INFO("Camera manager sample end");
