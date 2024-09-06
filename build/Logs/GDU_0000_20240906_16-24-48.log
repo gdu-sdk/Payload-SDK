@@ -1,0 +1,468 @@
+[0.000][core]-[debug]-[GduCore_Init:80) LIB VERSION: 0.0.34
+[0.347][core]-[info]-[GduCore_Init_FunList:204) reg fun list init ok
+[0.347][core]-[info]-[GduCore_Reg_FunList:212) reg fun 
+[0.348][core]-[info]-[GduCore_Reg_FunList:219) reg fun ****************
+[0.348][core]-[info]-[GduCore_Reg_FunList:231) reg fun ok 
+[0.348][core]-[info]-[GduCore_Reg_FunList:212) reg fun 
+[0.348][core]-[info]-[GduCore_Reg_FunList:219) reg fun ****************
+[0.348][core]-[info]-[GduCore_Reg_FunList:231) reg fun ok 
+[0.348][user]-[warn]-[GduWidget_GetFlieList_and_check:1084) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen
+[0.348][user]-[warn]-[GduWidget_GetFlieList_and_check:1085) file name widget_config.json
+[0.348][user]-[warn]-[GduWidget_GetFlieList_and_check:1086) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/en_big_screen/widget_config.json
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 1A40
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 38C4
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 9BC7
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 63F0
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 7A5
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 11C4
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc C28B
+[0.348][user]-[warn]-[GduWidget_GetFlieList_and_check:1084) path /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen
+[0.348][user]-[warn]-[GduWidget_GetFlieList_and_check:1085) file name widget_config.json
+[0.348][user]-[warn]-[GduWidget_GetFlieList_and_check:1086) toatal /home/gcc/git/github/Payload-SDK/samples/sample_c/module_sample/widget/widget_file/cn_big_screen/widget_config.json
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 1A40
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 38C4
+[0.348][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 9BC7
+[0.349][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 63F0
+[0.349][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 7A5
+[0.349][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc 11C4
+[0.349][user]-[info]-[GduWidget_GetFlieList_and_check:1123) ioc file crc C28B
+[0.349][core]-[info]-[GduCore_Reg_FunList:212) reg fun 
+[0.349][core]-[info]-[GduCore_Reg_FunList:219) reg fun ****************
+[0.349][core]-[info]-[GduCore_Reg_FunList:231) reg fun ok 
+[0.349][user]-[info]-[SetVolume:619) Set widget speaker volume: 30
+[0.349][user]-[warn]-[SetVolume:637) No audio device found, please add audio device and init speaker volume here!!!
+[0.349][core]-[info]-[GduCore_Reg_FunList:212) reg fun 
+[0.349][core]-[info]-[GduCore_Reg_FunList:219) reg fun ****************
+[0.349][core]-[info]-[GduCore_Reg_FunList:231) reg fun ok 
+[0.349][core]-[info]-[GduCore_Reg_FunList:212) reg fun 
+[0.349][core]-[info]-[GduCore_Reg_FunList:219) reg fun ****************
+[0.349][core]-[info]-[GduCore_Reg_FunList:231) reg fun ok 
+[0.350][link]-[info]-[npc_heartbeatServer:516) aircraft connecting
+[1.350][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[1.916][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[1.916][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[2.351][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[3.351][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[3.421][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[3.421][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[4.352][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[4.352][link]-[info]-[npc_heartbeatServer:516) aircraft connecting
+[4.971][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[4.971][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[5.353][user]-[debug]-[baseMessage_requestComID:62) request component id, PSDK_APPALIAS
+[5.371][user]-[debug]-[baseMsg_assignComId_ack:147) get component id : 1
+[6.354][link]-[info]-[npc_heartbeatServer:516) aircraft connecting
+[6.533][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[6.533][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[7.389][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[7.389][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[8.068][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[8.068][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[8.396][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[8.396][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[9.401][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[9.402][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[9.558][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[9.558][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[10.409][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[10.409][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[11.084][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[11.084][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[11.414][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[11.414][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[12.419][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[12.419][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[12.635][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[12.635][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[13.426][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[13.426][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[14.182][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[14.182][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[14.433][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[14.433][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[15.439][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[15.439][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[15.699][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[15.699][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[16.445][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[16.445][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[17.143][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[17.143][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[17.450][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[17.450][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[18.456][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[18.456][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[18.676][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[18.676][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[19.462][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[19.462][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[20.201][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[20.201][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[20.470][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[20.470][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[21.477][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[21.477][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[21.740][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[21.740][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[22.483][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[22.483][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[23.263][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[23.263][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[23.490][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[23.490][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[24.496][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[24.496][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[24.729][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[24.729][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[25.502][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[25.502][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[26.259][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[26.259][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[26.509][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[26.509][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[27.515][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[27.515][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[27.739][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[27.739][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[28.521][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[28.521][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[28.521][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[28.521][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[28.521][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[28.521][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[28.522][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[28.522][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[28.522][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[29.257][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[29.257][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[29.528][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[29.528][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[30.533][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[30.533][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[30.716][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[30.716][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[31.537][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[31.537][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[32.083][user]-[info]-[SetWorkMode:517) Set widget speaker work mode: 0
+[32.256][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[32.256][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[32.543][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[32.543][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[33.548][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[33.548][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[33.766][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[33.766][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[34.552][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[34.553][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[35.248][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[35.248][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[36.390][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[36.390][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[37.396][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[37.396][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[37.547][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[37.547][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[37.693][user]-[info]-[GduWidgetSpeaker_RecvTransmitCmd:647)  transmit data cmd event
+[37.693][user]-[info]-[GduWidgetSpeaker_RecvTransmitCmd:698)  transmit data start
+[37.693][user]-[info]-[ReceiveTtsData:656) Create tts file.
+[37.693][user]-[info]-[startTransmitCmdProcess:862) TTS recv data cmd start
+[37.802][user]-[info]-[ReceiveTtsData:667) Transmit tts file, offset: 0, size: 12
+[38.034][user]-[info]-[GduWidgetSpeaker_RecvTransmitCmd:647)  transmit data cmd event
+[38.034][user]-[warn]-[GduWidgetSpeaker_RecvTransmitCmd:711)  transmit data stop
+[38.034][user]-[warn]-[GduWidgetSpeaker_RecvTransmitCmd:712)  file size ********:12
+[38.034][user]-[info]-[ReceiveTtsData:681) Close tts file.
+[38.035][user]-[info]-[GduTest_CheckFileMd5Sum:441) MD5 sum check success
+[38.057][user]-[info]-[StartPlay:565) Start widget speaker play
+[38.057][user]-[info]-[stopTransmitCmdProcess:899) TTS recv data cmd stop
+[38.066][user]-[info]-[GduTest_PlayTtsData:376) Read tts file success, len: 12
+[38.067][user]-[info]-[GduTest_PlayTtsData:377) Content: 骨灰拌饭
+[38.067][user]-[info]-[GduTest_PlayTtsData:394) Start TTS Playing...
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[38.402][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[38.402][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[39.042][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[39.042][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[39.409][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[39.409][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[40.417][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[40.417][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[40.551][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[40.551][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[41.423][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[41.423][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
+[42.029][user]-[debug]-[UserGimbal_Task:397) gimbal attitude: pitch 0, roll 0, yaw 0.
+[42.029][user]-[debug]-[UserGimbal_Task:400) gimbal fine tune: pitch 0, roll 0, yaw 0.
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:782) Camera manager sample start
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:785) --> Step 2: Get camera type and version
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:793) Mounted position 0 camera's type is Unknown
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:803) Mounted position 0 camera's firmware is V0.0.0.0
+
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:809) --> Function a: Set camera shutter speed to 1/100 s
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:812) Set mounted position 0 camera's exposure mode to shutter priority mode.
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:822) Set mounted position 0 camera's shutter speed to 1/125 s.
+[42.428][user]-[info]-[GduTest_CameraManagerRunSample:1060) Camera manager sample end
+[42.428][core]-[debug]-[GduPayloadCameraManager_Task:286) SUB (5, 2, 16)
