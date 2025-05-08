@@ -1,6 +1,6 @@
 # psdk_to_github
 
-该仓库是psdk对外发布的仓库，psdk更新后上传到这里，由左学负责同步到github
+该仓库是psdk对外发布的仓库，psdk更新后上传到这里，并同步到github
 
 ## Getting started
 
