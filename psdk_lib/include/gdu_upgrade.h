@@ -74,7 +74,7 @@ typedef struct {
     uint8_t minorVersion; /*!< The minor version of firmware, the range is 0 ~ 99. */
     uint8_t modifyVersion; /*!< The modify version of firmware, the range is 0 ~ 99. */
     uint8_t debugVersion; /*!< The debug version of firmware, the range is 0 ~ 99. */
-} T_GduFirmwareVersion;
+} T_GduVersion;
 
 typedef struct {
     uint8_t upgradeProgress; /*!< The upgrade progress, the range is 0 ~ 100. */
@@ -143,7 +143,7 @@ typedef struct {
 } T_GduUpgradeState;
 
 typedef struct {
-    T_GduFirmwareVersion currentFirmwareVersion; /*!< The current firmware version of payload. */
+    T_GduVersion currentFirmwareVersion; /*!< The current firmware version of payload. */
     T_GduFirmwareTransferInfo firmwareTransferInfo; /*!< The firmware transfer info of payload. */
 } T_GduUpgradeConfig;
 

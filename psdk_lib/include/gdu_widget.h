@@ -103,6 +103,7 @@ typedef enum {
     GDU_WIDGET_SPEAKER_AAC = 2,
 } E_GduWidgetSpeakerDataType;
 
+
 typedef enum {
     GDU_WIDGET_SPEAKER_RATE_8K = 0,
 	GDU_WIDGET_SPEAKER_RATE_12K = 1,
@@ -114,7 +115,6 @@ typedef enum {
 	GDU_WIDGET_SPEAKER_RATE_48K = 7,
 	GDU_WIDGET_SPEAKER_RATE_96K = 8,
 }E_GduWidgetSpeakerSampling;
-
 
 typedef enum {
     GDU_WIDGET_SPEAKER_RATE_SINGLE = 0,
@@ -252,7 +252,6 @@ typedef struct {
     T_GduReturnCode (*ReceiveRealTimeVoiceData)(E_GduWidgetTransmitDataEvent event,
                                         uint32_t offset, uint8_t *buf, uint16_t size);
     T_GduReturnCode (*GetSpeakerParam)(T_GduWidgetSpeakerParam *speakerParam);
-
 } T_GduWidgetSpeakerHandler;
 
 /* Exported functions --------------------------------------------------------*/

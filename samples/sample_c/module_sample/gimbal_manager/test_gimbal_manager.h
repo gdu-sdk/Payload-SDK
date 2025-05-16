@@ -1,7 +1,7 @@
 /**
  ********************************************************************
- * @file    gdu_version.h
- * @brief   This is the header file for "gdu_version.c", defining the structure and
+ * @file    test_gimbal_manager.h
+ * @brief   This is the header file for "test_gimbal_manager.c", defining the structure and
  * (exported) function prototypes.
  *
  * @copyright (c) 2021 GDU. All rights reserved.
@@ -24,29 +24,26 @@
  */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef GDU_VERSION_H
-#define GDU_VERSION_H
+#ifndef TEST_GIMBAL_MANAGER_H
+#define TEST_GIMBAL_MANAGER_H
 
 /* Includes ------------------------------------------------------------------*/
-
+#include "gdu_typedef.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 /* Exported constants --------------------------------------------------------*/
-#define GDU_VERSION_MAJOR     3 /*!< GDU SDK major version num, when have incompatible API changes. Range from 0 to 99. */
-#define GDU_VERSION_MINOR     0 /*!< GDU SDK minor version num, when add functionality in a backwards compatible manner changes. Range from 0 to 99. */
-#define GDU_VERSION_BUILD     28 /*!< GDU SDK version*/
 
 /* Exported types ------------------------------------------------------------*/
 
 /* Exported functions --------------------------------------------------------*/
-
+T_GduReturnCode GduTest_GimbalManagerRunSample(E_GduMountPosition mountPosition, E_GduGimbalMode gimbalMode);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // GDU_VERSION_H
+#endif // TEST_GIMBAL_MANAGER_H
 /************************ (C) COPYRIGHT GDU Innovations *******END OF FILE******/
