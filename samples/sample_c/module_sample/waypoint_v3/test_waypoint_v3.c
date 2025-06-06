@@ -118,7 +118,7 @@ T_GduReturnCode GduTest_WaypointV3RunSample(void)
 #endif
 
     USER_LOG_INFO("Execute start action");
-    returnCode = GduWaypointV3_Action(GDU_WAYPOINT_V3_ACTION_START);
+    returnCode = GduWaypointV3_Action(GDU_WAYPOINT_V3_ACTION_START, GDU_WAYPOINT_V3_NORMAL_MISSION);
     if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
         USER_LOG_ERROR("Execute start action failed.");
         goto out;
@@ -129,7 +129,7 @@ T_GduReturnCode GduTest_WaypointV3RunSample(void)
     }
 
     USER_LOG_INFO("Execute pause action");
-    returnCode = GduWaypointV3_Action(GDU_WAYPOINT_V3_ACTION_PAUSE);
+    returnCode = GduWaypointV3_Action(GDU_WAYPOINT_V3_ACTION_PAUSE, GDU_WAYPOINT_V3_NORMAL_MISSION);
     if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
         USER_LOG_ERROR("Execute start action failed.");
         goto out;
@@ -140,7 +140,7 @@ T_GduReturnCode GduTest_WaypointV3RunSample(void)
     }
 
     USER_LOG_INFO("Execute resume action");
-    returnCode = GduWaypointV3_Action(GDU_WAYPOINT_V3_ACTION_RESUME);
+    returnCode = GduWaypointV3_Action(GDU_WAYPOINT_V3_ACTION_RESUME, GDU_WAYPOINT_V3_NORMAL_MISSION);
     if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
         USER_LOG_ERROR("Execute start action failed.");
         goto out;
