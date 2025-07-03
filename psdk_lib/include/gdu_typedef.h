@@ -130,9 +130,10 @@ typedef struct {
  * @brief Gimbal work mode, specifies how gimbal follow aircraft movement.
  */
 typedef enum {
-    GDU_GIMBAL_MODE_FREE = 0, /*!< Free mode, fix gimbal attitude in the ground coordinate, ignoring movement of aircraft. */
-    GDU_GIMBAL_MODE_FPV = 1, /*!< FPV (First Person View) mode, only control roll and yaw angle of gimbal in the ground coordinate to follow aircraft. */
-    GDU_GIMBAL_MODE_YAW_FOLLOW = 2, /*!< Yaw follow mode, only control yaw angle of gimbal in the ground coordinate to follow aircraft. */
+    GDU_GIMBAL_MODE_YAW_FOLLOW = 0, /*!< Yaw follow mode, only control yaw angle of gimbal in the ground coordinate to follow aircraft. */
+    GDU_GIMBAL_MODE_FREE = 1, /*!< Free mode, fix gimbal attitude in the ground coordinate, ignoring movement of aircraft. */
+    GDU_GIMBAL_MODE_FPV = 2, /*!< FPV (First Person View) mode, only control roll and yaw angle of gimbal in the ground coordinate to follow aircraft. */
+
 } E_GduGimbalMode;
 
 /**
@@ -154,6 +155,7 @@ typedef enum {
     GDU_MOBILE_APP_LANGUAGE_JAPANESE = 2, /*!< The system language of the mobile app is Japanese */
     GDU_MOBILE_APP_LANGUAGE_FRENCH = 3, /*!< The system language of the mobile app is French */
     GDU_MOBILE_APP_LANGUAGE_RUSSIAN = 4, /*!< The system language of the mobile app is russian */
+    GDU_MOBILE_APP_LANGUAGE_MAX
 } E_GduMobileAppLanguage;
 
 /**

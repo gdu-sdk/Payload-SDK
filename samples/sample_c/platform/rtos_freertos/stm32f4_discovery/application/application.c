@@ -164,7 +164,11 @@ void GduUser_StartTask(void const *argument)
         goto out;
     }
 
-		
+	returnCode = GduCore_ApplicationStart();
+	if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+		USER_LOG_ERROR("start sdk application error");
+	}
+    
     USER_LOG_DEBUG("%s", GduCode_GetProductAlias());
 #ifdef CONFIG_MODULE_PAYLOAD_MSG_ON
 		returnCode = GduTest_PayloadMsgStartService();
@@ -316,11 +320,6 @@ void GduUser_StartTask(void const *argument)
 			printf("psdk upgrade init error");
 		}
 #endif
-
-	returnCode = GduCore_ApplicationStart();
-	if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-		USER_LOG_ERROR("start sdk application error");
-	}
 
 	while (1) {
 		Osal_TaskSleepMs(1000);
