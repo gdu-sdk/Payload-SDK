@@ -33,7 +33,8 @@ extern "C" {
 #endif
 
 /* Exported constants --------------------------------------------------------*/
-// ATTENTION: S400 serial aircraft USER_BAUD_RATE use 460800  S200 serial aircraft USER_BAUD_RATE 230400
+// ATTENTION: S400 serial aircraft if you use bottom port link your device USER_BAUD_RATE use 460800 else USER_BAUD_RATE use 230400  
+//S200 serial aircraft USER_BAUD_RATE 230400
 #define USER_APP_NAME               "t-psdk"
 #define USER_APP_ID                 "1151"
 #define USER_APP_KEY                "2590d91a28cef"
