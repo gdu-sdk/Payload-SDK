@@ -58,7 +58,8 @@
 #include "gdu_sdk_config.h"
 #include "waypoint_v3/test_waypoint_v3.h"
 #include "payload_msg/test_payload_msg.h"
-
+#include "gdu_power_management.h"
+#include "power_management/test_power_management.h"
 /* Private constants ---------------------------------------------------------*/
 #define GDU_LOG_PATH                    "Logs/GDU"
 #define GDU_LOG_INDEX_FILE_NAME         "Logs/latest"
@@ -89,7 +90,7 @@ static T_GduReturnCode GduUser_LocalWrite(const uint8_t *data, uint16_t dataLen)
 static T_GduReturnCode GduUser_LocalWriteFsInit(const char *path);
 static void *GduUser_MonitorTask(void *argument);
 static T_GduReturnCode GduTest_HighPowerApplyPinInit();
-//static T_GduReturnCode GduTest_WriteHighPowerApplyPin(E_GduPowerManagementPinState pinState);
+static T_GduReturnCode GduTest_WriteHighPowerApplyPin(E_GduPowerManagementPinState pinState);
 
 /* Exported functions definition ---------------------------------------------*/
 int main(int argc, char **argv)
@@ -258,6 +259,10 @@ int main(int argc, char **argv)
 		return GDU_ERROR_SYSTEM_MODULE_CODE_SYSTEM_ERROR;
 	}
 
+	returnCode = GduCore_ApplicationStart();
+	if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+		USER_LOG_ERROR("start sdk application error");
+	}
 	if (aircraftInfoBaseInfo.mountPosition == GDU_MOUNT_POSITION_EXTENSION_PORT) {
 #if 0
 		returnCode = GduTest_DataTransmissionStartService();
@@ -385,10 +390,11 @@ int main(int argc, char **argv)
     if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
         USER_LOG_ERROR("Init camera manager failed, error code: 0x%08X\r\n", returnCode);
     }
-// 		returnCode = GduTest_CameraManagerRunSample(0, E_GDU_TEST_CAMERA_MANAGER_SAMPLE_SELECT_SET_CAMERA_SHUTTER_SPEED);
-// 		if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-// 			USER_LOG_ERROR("Payload collaboration sample init error\n");
-// 		}
+		// returnCode = GduTest_CameraManagerRunSample(0, E_GDU_TEST_CAMERA_MANAGER_SAMPLE_SELECT_SET_CAMERA_SHUTTER_SPEED);
+		// if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+		// 	USER_LOG_ERROR("Payload collaboration sample init error\n");
+		// }
+	GduTest_GimbalManagerRunSample(0, GDU_GIMBAL_MODE_FREE);
  #endif
 
 #ifdef CONFIG_MODULE_SAMPLE_UPGRADE_ON
@@ -414,11 +420,6 @@ int main(int argc, char **argv)
 			USER_LOG_ERROR("psdk upgrade init error");
 		}
 #endif
-	}
-
-	returnCode = GduCore_ApplicationStart();
-	if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-		USER_LOG_ERROR("start sdk application error");
 	}
 
 #if 0
@@ -642,13 +643,11 @@ static T_GduReturnCode GduTest_HighPowerApplyPinInit()
 	return GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS;
 }
 
-#if 0
 static T_GduReturnCode GduTest_WriteHighPowerApplyPin(E_GduPowerManagementPinState pinState)
 {
 	//attention: please pull up the HWPR pin state by hardware.
 	return GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS;
 }
-#endif
 
 #pragma GCC diagnostic pop
 

@@ -1,9 +1,10 @@
 /**
  ********************************************************************
- * @file    gdu_sdk_app_info.h
- * @brief   This is the header file for defining the structure and (exported) function prototypes.
+ * @file    test_gimbal_manager.h
+ * @brief   This is the header file for "test_gimbal_manager.c", defining the structure and
+ * (exported) function prototypes.
  *
- * @copyright (c) 2018 GDU. All rights reserved.
+ * @copyright (c) 2021 GDU. All rights reserved.
  *
  * All information contained herein is, and remains, the property of GDU.
  * The intellectual and technical concepts contained herein are proprietary
@@ -23,33 +24,26 @@
  */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef GDU_SDK_APP_INFO_H
-#define GDU_SDK_APP_INFO_H
+#ifndef TEST_GIMBAL_MANAGER_H
+#define TEST_GIMBAL_MANAGER_H
 
 /* Includes ------------------------------------------------------------------*/
+#include "gdu_typedef.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 /* Exported constants --------------------------------------------------------*/
-// ATTENTION: S400 serial aircraft if you use bottom port link your device USER_BAUD_RATE use 460800 else USER_BAUD_RATE use 230400  
-//S200 serial aircraft USER_BAUD_RATE 230400
-#define USER_APP_NAME               "t-psdk"
-#define USER_APP_ID                 "1151"
-#define USER_APP_KEY                "2590d91a28cef"
-#define USER_APP_LICENSE            "lmkFJjtKQ=="
-#define USER_DEVELOPER_ACCOUNT      "1234567789@qq.com"
-#define USER_BAUD_RATE              "460800"
 
 /* Exported types ------------------------------------------------------------*/
 
 /* Exported functions --------------------------------------------------------*/
-
+T_GduReturnCode GduTest_GimbalManagerRunSample(E_GduMountPosition mountPosition, E_GduGimbalMode gimbalMode);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // GDU_SDK_APP_INFO_H
+#endif // TEST_GIMBAL_MANAGER_H
 /************************ (C) COPYRIGHT GDU Innovations *******END OF FILE******/

@@ -48,6 +48,16 @@ typedef enum {
 } E_GduWaypointV3Action;
 
 /**
+* @brief Waypoint v3 mission type.
+*/
+typedef enum {
+    GDU_WAYPOINT_V3_NORMAL_MISSION = 0, /*!< Waypoint v3 normal mission. */
+    GDU_WAYPOINT_V3_ACCURATE_MISSION = 1, /*!< Waypoint v3 accurate take photo  mission. */
+    GDU_WAYPOINT_V3_DJ_MISSION = 2, /*!< Waypoint v3 dj mission. */ 
+    GDU_WAYPOINT_V3_GDU2_MISSION = 3, /*!< Waypoint v3 gdu2.0 mission. */ 
+} E_GduWaypointType;
+
+/**
 *  Waypoint v3 current aircraft state.
 */
 typedef enum {
@@ -102,7 +112,7 @@ T_GduReturnCode GduWaypointV3_UploadXmlFile(const uint8_t *data, uint32_t dataLe
  * @note This action should be called after uploading the kmz file.
  * @return Execution result.
  */
-T_GduReturnCode GduWaypointV3_Action(E_GduWaypointV3Action action);
+T_GduReturnCode GduWaypointV3_Action(E_GduWaypointV3Action action, E_GduWaypointType type);
 
 /**
  * @brief Register the mission state callback for waypoint mission.

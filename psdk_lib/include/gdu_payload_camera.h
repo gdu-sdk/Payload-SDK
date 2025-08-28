@@ -353,6 +353,7 @@ typedef struct {
      */
     T_GduReturnCode (*FormatSDCard)(void);
 
+
     /**
      * @brief Prototype of callback function used to format the SDCard inserted.
      * @return Execution result.
@@ -534,7 +535,7 @@ typedef struct {
      * @return Execution result.
      */
     T_GduReturnCode (*StopContinuousOpticalZoom)(void);
-
+	//T_GduReturnCode (*StopContinuousOpticalZoom)(E_GduCameraZoomDirection direction, E_GduCameraZoomSpeed speed);
 } T_GduCameraOpticalZoomHandler;
 
 /**

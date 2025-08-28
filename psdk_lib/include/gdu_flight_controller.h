@@ -232,24 +232,22 @@ typedef enum {
     GDU_FLIGHT_CONTROLLER_ENABLE_RC_LOST_ACTION = 0,
     GDU_FLIGHT_CONTROLLER_DISABLE_RC_LOST_ACTION = 1,
 } E_GduFlightControllerRCLostActionEnableStatus;
+
 /**
  * @brief Joystick mode.
  * @note You need to set joystick mode first before start to send joystick command to aircraft.
  */
 typedef struct {
-    E_GduFlightControllerHorizontalControlMode horizontalControlMode; /*!< See reference of E_GduFlightControllerHorizontalControlMode*/
-    E_GduFlightControllerVerticalControlMode verticalControlMode; /*!< See reference of E_GduFlightControllerVerticalControlMode*/
     E_GduFlightControllerYawControlMode yawControlMode; /*!< See reference of E_GduFlightControllerYawControlMode*/
-    E_GduFlightControllerHorizontalCoordinate horizontalCoordinate; /*!< See reference of E_GduFlightControllerHorizontalCoordinate*/
     E_GduFlightControllerStableControlMode stableControlMode; /*!< See reference of E_GduFlightControllerStableControlMode*/
 } T_GduFlightControllerJoystickMode;
 
 #pragma pack(1)
 typedef struct {
-    gdu_f32_t x;   /*!< Control with respect to the x axis. value range : 1000-2000*/
-    gdu_f32_t y;   /*!< Control with respect to the y axis. value range : 1000-2000*/
-    gdu_f32_t z;   /*!< Control with respect to the z axis, up is positive. value range : 1000-2000*/
-    gdu_f32_t yaw; /*!< Yaw position/velocity control w.r.t. the ground frame. value range : 1000-2000*/
+    gdu_f32_t x;   /*!< Control with respect to the x axis. */
+    gdu_f32_t y;   /*!< Control with respect to the y axis.*/
+    gdu_f32_t z;   /*!< Control with respect to the z axis, up is positive.*/
+    gdu_f32_t yaw; /*!< Yaw position/velocity control w.r.t. the ground frame.*/
 } T_GduFlightControllerJoystickCommand;// pack(1)
 
 typedef struct {
@@ -592,14 +590,33 @@ T_GduReturnCode GduFlightController_ExecuteEmergencyBrakeAction(void);
  * @return Execution result.
  */
 T_GduReturnCode GduFlightController_CancelEmergencyBrakeAction(void);
-//
-///**
-// * @brief Get general info of the aircraft.
-// * @param generalInfo: the struct stored the serial num which contains a array of chars var in case the user gives an
-// * illegal length character pointer
-// * @return Execution result.
-// */
-//T_GduReturnCode GduFlightController_GetGeneralInfo(T_GduFlightControllerGeneralInfo *generalInfo);
+/**
+ * @brief Get general info of the aircraft.
+ * @param generalInfo: the struct stored the serial num which contains a array of chars var in case the user gives an
+ * illegal length character pointer
+ * @return Execution result.
+ */
+T_GduReturnCode GduFlightController_GetGeneralInfo(T_GduFlightControllerGeneralInfo *generalInfo);
+
+/*! @brief The command decides whether execute RC lost action or not when osdk is running
+  * @note  This setting only affects the behavior of the drone when the RC lost and the OSDK is connected.
+  *         if the command is enable, the drone will not execute rc lost action when rc is lost but OSDK is running;
+  *         if the command is disable, the drone will execute rc lost action when rc is lost but OSDK is running
+  *         the drone will execute rc lost action when rc is lost and OSDK is lost whatever the command is.
+  *         default command is disable.
+  * @param executeRCLostActionOrNotWhenOnboardOn  enable:1;disable:0
+  * @return T_GduReturnCode error code
+   */
+	T_GduReturnCode
+GduFlightController_SetRCLostActionEnableStatus(E_GduFlightControllerRCLostActionEnableStatus command);
+
+/*! @brief get rc lost action enable status(enable or disable)
+ *  @param command executeRCLostActionOrNotWhenOnboardOn, enable:1;disable:0
+ *  @return  T_GduReturnCode error code
+ */
+T_GduReturnCode
+GduFlightController_GetEnableRCLostActionStatus(E_GduFlightControllerRCLostActionEnableStatus *command);
+
 
 #ifdef __cplusplus
 }

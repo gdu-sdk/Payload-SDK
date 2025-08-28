@@ -182,14 +182,7 @@ T_GduReturnCode GduTest_FlightControlInit(void)
         return returnCode;
     }
 
-    returnCode = GduFcSubscription_SubscribeTopic(GDU_FC_SUBSCRIPTION_TOPIC_QUATERNION,
-                                                  GDU_DATA_SUBSCRIPTION_TOPIC_10_HZ,
-                                                  NULL);
 
-    if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-        USER_LOG_ERROR("Subscribe topic quaternion failed,error code:0x%08llX", returnCode);
-        return returnCode;
-    }
 
     returnCode = GduFcSubscription_SubscribeTopic(GDU_FC_SUBSCRIPTION_TOPIC_POSITION_FUSED,
                                                   GDU_DATA_SUBSCRIPTION_TOPIC_10_HZ,
@@ -200,23 +193,7 @@ T_GduReturnCode GduTest_FlightControlInit(void)
         return returnCode;
     }
 
-    returnCode = GduFcSubscription_SubscribeTopic(GDU_FC_SUBSCRIPTION_TOPIC_ALTITUDE_FUSED,
-                                                  GDU_DATA_SUBSCRIPTION_TOPIC_10_HZ,
-                                                  NULL);
 
-    if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-        USER_LOG_ERROR("Subscribe topic altitude fused failed,error code:0x%08llX", returnCode);
-        return returnCode;
-    }
-
-    returnCode = GduFcSubscription_SubscribeTopic(GDU_FC_SUBSCRIPTION_TOPIC_ALTITUDE_OF_HOMEPOINT,
-                                                  GDU_DATA_SUBSCRIPTION_TOPIC_1_HZ,
-                                                  NULL);
-
-    if (returnCode != GDU_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
-        USER_LOG_ERROR("Subscribe topic altitude of home point failed,error code:0x%08llX", returnCode);
-        return returnCode;
-    }
 
     returnCode = GduFlightController_RegJoystickCtrlAuthorityEventCallback(
         GduTest_FlightControlJoystickCtrlAuthSwitchEventCallback);

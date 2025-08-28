@@ -84,16 +84,6 @@ T_GduReturnCode GduLowSpeedDataChannel_SendData(E_GduChannelAddress channelAddre
                                                 uint8_t len);
 
 /**
- * @brief Get data transmission state of "sendToOsdk" command channel. User can use the state as base for controlling data
- * transmission between selected channel address and onboard computer.
- * @param channelAddress: the channel address of the low speed channel
- * @param state: pointer to low speed channel state.
- * @return Execution result.
- */
-T_GduReturnCode GduLowSpeedDataChannel_GetSendDataState(E_GduChannelAddress channelAddress,
-                                                        T_GduDataChannelState *state);
-
-/**
  * @brief Register callback function used to receive data from selected channel address. After registering this callback
  * function, callback function will be called automatically when system receive data from selected channel address.
  * @param channelAddress: the channel address of the low speed channel
